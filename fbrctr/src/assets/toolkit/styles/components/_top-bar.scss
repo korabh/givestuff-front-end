@@ -1,7 +1,14 @@
 .top-bar {
 	background-color: $white;
 	height: 85px;
+	@include scut-border(1px solid #e5e5e5, n n y n);
 }
 .top-bar ul {
 	line-height: 85px;
+}
+.top-bar .top-bar-center {
+	@include grid-column(4);
+}
+.top-bar .top-bar-left {
+	@include grid-column(4);
 }

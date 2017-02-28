@@ -1,0 +1,273 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ca",
+				"calculateAge"
+			],
+			[
+				"ye",
+				"yearsOfBirth"
+			],
+			[
+				"kevin",
+				"kevinAge"
+			],
+			[
+				"smi",
+				"smithHeight"
+			],
+			[
+				"joh",
+				"johnAge"
+			],
+			[
+				"john",
+				"johnHeight"
+			],
+			[
+				"smith",
+				"smithAge"
+			],
+			[
+				"is",
+				"isMarried"
+			],
+			[
+				"_co",
+				"_cookies.less"
+			],
+			[
+				"b",
+				"buisnes.png\tw:241 h:20"
+			],
+			[
+				"t",
+				"tnw.png\tw:126 h:52"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 210.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"packagee",
+				"PackageResourceViewer: Extract Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/labinotjaha/Desktop/Projects/give",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr"
+	],
+	"file_history":
+	[
+		"/Users/labinotjaha/Desktop/2-JS-Basics/script.js",
+		"/Users/labinotjaha/Desktop/Projects/Bopazar/src/assets/toolkit/styles/components/_hero.scss",
+		"/Users/labinotjaha/Desktop/Projects/Bopazar/src/materials/organisms/hero.html",
+		"/Users/labinotjaha/Desktop/Projects/Bopazar/src/assets/toolkit/styles/components/_top-bar.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/give.sublime-workspace",
+		"/Users/labinotjaha/Desktop/Projects/give/bower.json",
+		"/Users/labinotjaha/Desktop/2-JS-Basics/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/inzdr/css/utils/_cookies.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/inzdr/css/utils/_responsive.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/inzdr/index.html",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_responsive.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/terms.html",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_feature.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_animation.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_cookies.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/privacy.html",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/js/main.js",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/cookies.html",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/index.html",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/default.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_colors.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_terms.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_on-appstore.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_footer.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_nav.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_main.less",
+		"/Users/labinotjaha/Library/Application Support/Sublime Text 3/Packages/Material Theme/Material-Theme.sublime-theme",
+		"/Users/labinotjaha/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/labinotjaha/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"/Applications/XAMPP/xamppfiles/htdocs/inzdr"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"prompt",
+			"top-bar",
+			"';",
+			"#hoofd",
+			" \"",
+			"<h1",
+			"hoofdcollumn",
+			"%;\n",
+			"hoofdcollumn",
+			"38, 50, 56"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "give.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/Projects/Bopazar/bopazar.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

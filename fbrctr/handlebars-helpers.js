@@ -45,4 +45,7 @@ module.exports = {
 	attr: function(value) {
 		return _.kebabCase(value);
 	},
+	image: function(baseurl, value){
+		return baseurl + `/assets/toolkit/images/${value}`;
+	},
 };
