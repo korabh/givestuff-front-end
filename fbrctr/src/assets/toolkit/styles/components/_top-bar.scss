@@ -11,12 +11,12 @@
 
 .top-bar {
 	background-color: $white;
+	height: 85px;
 	padding: 0px;
-	height: rem-calc(85);
 	@include scut-border(1px solid #e5e5e5, n n y n);
 }
 .top-bar ul {
-	line-height: rem-calc(85);
+	line-height: 85px;
 }
 .top-bar ul > * {
 	vertical-align: middle;
