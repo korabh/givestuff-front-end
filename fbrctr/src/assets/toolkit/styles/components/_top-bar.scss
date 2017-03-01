@@ -33,8 +33,6 @@
 		}
 	}
 }
-.top-bar .top-bar-left {
-	@include grid-column(4);
 .top-bar-right {
 	text-align: right;
 	height: 85px;
@@ -51,6 +49,4 @@
 			text-decoration: underline;
 		}
 	}
-.top-bar .top-bar-left, .top-bar-right {
-	@include grid-column(4);
 }
