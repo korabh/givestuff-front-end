@@ -1,3 +1,14 @@
+.top-bar .top-bar-left {
+	@include grid-column(3);
+}
+.top-bar .top-bar-center {
+	@include grid-column(6);
+	text-align: center;
+}
+.top-bar .top-bar-right {
+	@include grid-column(3);
+}
+
 .top-bar {
 	background-color: $white;
 	padding: 0px;
@@ -7,9 +18,39 @@
 .top-bar ul {
 	line-height: rem-calc(85);
 }
-.top-bar .top-bar-center {
-	@include grid-column(4);
+.top-bar ul > * {
+	vertical-align: middle;
+	display: inline-block;
+} 
+.top-bar-center ul {
+	background-color: transparent;
+	li {
+		a {
+		  @include scut-padding ( rem-calc(11) rem-calc(32.5));
+			font-size: rem-calc(13);
+			color: $black;
+			text-transform: uppercase;
+		}
+	}
 }
+.top-bar .top-bar-left {
+	@include grid-column(4);
+.top-bar-right {
+	text-align: right;
+	height: 85px;
+	h4 {
+		font-size: rem-calc(13);
+		color: $black;
+		line-height: 85px;
+		.icon-login-icon {
+			@include scut-margin(n 10px n n);
+			vertical-align: middle;
+		}
+		a {
+			color: $black;
+			text-decoration: underline;
+		}
+	}
 .top-bar .top-bar-left, .top-bar-right {
 	@include grid-column(4);
 }
