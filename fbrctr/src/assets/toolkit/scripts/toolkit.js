@@ -29,12 +29,17 @@ var foundationAbide = require('../../vendor/foundation-sites/js/foundation.abide
 var foundationTooltip = require('../../vendor/foundation-sites/js/foundation.tooltip.js');
 var foundationDropdownMenu = require('../../vendor/foundation-sites/js/foundation.dropdownMenu.js');
 var foundationToggler = require('../../vendor/foundation-sites/js/foundation.toggler.js');
+var foundationTabs = require('../../vendor/foundation-sites/js/foundation.tabs.js');
+var foundationTabs = require('../../vendor/foundation-sites/js/foundation.util.timerAndImageLoader.js');
+
 
 //require('smoothstate/jquery.smoothState.min.js');
 // var smoothState = require('./jquery.smoothState.min.js');
 
 // console.log($);
 // $('h1').fadeOut(2000);
+
+
 
 // Use for custom Pattern Libary Modules
 // var fooModule = require('./foo-module');
