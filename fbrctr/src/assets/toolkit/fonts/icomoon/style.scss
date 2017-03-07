@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('#{$icomoon-font-path}/icomoon.eot?agu5ox');
-  src:  url('#{$icomoon-font-path}/icomoon.eot?agu5ox#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/icomoon.ttf?agu5ox') format('truetype'),
-    url('#{$icomoon-font-path}/icomoon.woff?agu5ox') format('woff'),
-    url('#{$icomoon-font-path}/icomoon.svg?agu5ox#icomoon') format('svg');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?g29rir');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?g29rir#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?g29rir') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?g29rir') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?g29rir#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,14 +26,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-password-icon {
+  &:before {
+    content: $icon-password-icon;
+  }
+}
+.icon-close-icon {
+  &:before {
+    content: $icon-close-icon;
+  }
+}
+.icon-email-icon {
+  &:before {
+    content: $icon-email-icon;
+  }
+}
 .icon-login-icon {
   &:before {
     content: $icon-login-icon;
-  }
-}
-.icon-heart {
-  &:before {
-    content: $icon-heart;
   }
 }
 

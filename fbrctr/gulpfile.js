@@ -155,6 +155,14 @@ gulp.task('serve', function () {
 		logPrefix: 'FABRICATOR'
 	});
 
+// motion 
+
+gulp.task('motion', function() {
+	return gulp.src('./src/scss/app.scss')
+  .pipe(sass({
+    includePaths: ['node_modules/motion-ui/src']
+  }));
+});
 	/**
 	 * Because webpackCompiler.watch() isn't being used
 	 * manually remove the changed file path from the cache

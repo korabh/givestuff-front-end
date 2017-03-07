@@ -16,22 +16,31 @@ require('babel-polyfill');
 
 // Loading foundation from node
 var foundation = require('../../vendor/foundation-sites/js/foundation.core.js');
-var foundationMediaQuery = require('../../vendor/foundation-sites/js/foundation.util.mediaQuery.js');
-var foundationKeyboard = require('../../vendor/foundation-sites/js/foundation.util.keyboard.js');
-var foundationBox = require('../../vendor/foundation-sites/js/foundation.util.box.js');
-var foundationBox = require('../../vendor/foundation-sites/js/foundation.util.nest.js');
+var foundationTimeAndImage = require('../../vendor/foundation-sites/js/foundation.util.timerAndImageLoader.js');
 var foundationMotion = require('../../vendor/foundation-sites/js/foundation.util.motion.js');
 var foundationTriggers = require('../../vendor/foundation-sites/js/foundation.util.triggers.js');
+var foundationKeyboard = require('../../vendor/foundation-sites/js/foundation.util.keyboard.js');
+var foundationMediaQuery = require('../../vendor/foundation-sites/js/foundation.util.mediaQuery.js');
+var foundationBox = require('../../vendor/foundation-sites/js/foundation.util.box.js');
+var foundationNest = require('../../vendor/foundation-sites/js/foundation.util.nest.js');
+var foundationSticky = require('../../vendor/foundation-sites/js/foundation.sticky.js');
 var foundationDropdown = require('../../vendor/foundation-sites/js/foundation.dropdown.js');
 var foundationAccordion = require('../../vendor/foundation-sites/js/foundation.accordion.js');
 var foundationReveal = require('../../vendor/foundation-sites/js/foundation.reveal.js');
 var foundationAbide = require('../../vendor/foundation-sites/js/foundation.abide.js');
 var foundationTooltip = require('../../vendor/foundation-sites/js/foundation.tooltip.js');
 var foundationDropdownMenu = require('../../vendor/foundation-sites/js/foundation.dropdownMenu.js');
+var foundationAccordion = require('../../vendor/foundation-sites/js/foundation.accordion.js');	
+var foundationAccordionMenu = require('../../vendor/foundation-sites/js/foundation.accordionMenu.js');
 var foundationToggler = require('../../vendor/foundation-sites/js/foundation.toggler.js');
 var foundationTabs = require('../../vendor/foundation-sites/js/foundation.tabs.js');
-var foundationTabs = require('../../vendor/foundation-sites/js/foundation.util.timerAndImageLoader.js');
-
+var foundationMagellan = require('../../vendor/foundation-sites/js/foundation.magellan.js');
+var foundationOffCanvas = require('../../vendor/foundation-sites/js/foundation.offcanvas.js');
+var foundationOffOrbit = require('../../vendor/foundation-sites/js/foundation.orbit.js');
+var foundationOffEqualizer = require('../../vendor/foundation-sites/js/foundation.equalizer.js');
+var foundationDrilldowns = require('../../vendor/foundation-sites/js/foundation.drilldown.js');
+var foundationToggle = require('../../vendor/foundation-sites/js/foundation.responsiveToggle.js');
+var foundationResponsive = require('../../vendor/foundation-sites/js/foundation.responsiveMenu.js');
 
 //require('smoothstate/jquery.smoothState.min.js');
 // var smoothState = require('./jquery.smoothState.min.js');
@@ -49,5 +58,27 @@ var foundationTabs = require('../../vendor/foundation-sites/js/foundation.util.t
 $(document).ready(function () {
   //console.log('Script kiddies of the world unite.')
   $(document).foundation();
+
+	$( document ).on( 'keydown', function ( e ) {
+    if ( e.keyCode === 27 ) {
+        $( '.offcanvas-section' ).removeClass('open');
+    }
+	});
+
+  $( ".sign-pop" ).click(function() {
+	  $('.offcanvas-section').addClass( "open" );
+	});
+	$( '.close-offcanvas').click(function(){
+		$('.offcanvas-section').removeClass( "open" );
+	});
+
+	$('.click').on('click', function() {
+	  $(this).toggleClass('open');
+	});
+	
+  $(document).scroll(function () {
+	  var $nav = $(".title-bar-responsive");
+	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	});
 
 });
