@@ -17,7 +17,7 @@
   ],
   "devDependencies": {
     "jquery": "~2.1.4",
-    "foundation-sites": "~6.2.1"
+    "foundation-sites": "~6.2.4"
   },
   "scripts": {
     "gulp": "gulp",
@@ -26,7 +26,8 @@
     "build": "npm install && gulp",
     "start": "gulp --dev",
     "postinstall": "bower install",
-    "test": "npm run build"
+    "test": "npm run build",
+    "normalize-css": "^5.0.0"
   },
   "resolutions": {
     "jquery": "~2.2.0"
