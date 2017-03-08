@@ -1,41 +1,51 @@
 .footer {
-  background-color: #292c2f;
+  background-color: $black;
+  min-height: 230px;
   text-align: center;
-  font-size: 1.2rem;
-  padding: 4rem;
-  &:after {
-    content: '';
-    @include scut-circle(2em, red);
-    border: 5px solid red;
+  // @include grid-column;
+}
+.footer .footer-logo {
+  @include grid-column(6);
+  @include breakpoint(small only) {
+    @include grid-column(12);
+    line-height:100px;
+    text-align: center;
   }
+  text-align: left;
+  line-height: 230px;
+  vertical-align: middle;
+}
+.footer .footer-social {
+  @include grid-column(6);
+  @include breakpoint(small only) {
+    @include grid-column(12);
+    line-height:100px;
+    text-align: center;
+    ul li a:last-child{
+      padding-right: 16px!important;
+    }
+  }
+  line-height: 230px;
+  text-align: right;
   p {
-    &.slogan {
-      color: #8d9093;
-      font-size: 1.8rem;
-      margin: 0 0 1rem;
-    }
-    &.copywrite {
-      color: #8f9296;
-      font-size: 0.875rem;
-      margin: 0;
+    color: $white;
+  }
+  ul {
+    float: right;
+    li {
+      a {
+        color: $white;
+        text-transform: capitalize;
+        text-decoration: underline;
+      }
+      &:last-child {
+        a {padding-right : 0px};
+      }
     }
   }
-
-  .links a {
-    list-style: none;
-    font-weight: bold;
-    color: #ffffff;
-    padding: 3rem 0 2rem;
-    margin: 0;
-
-    &::after {
-      content: "•";
-      padding: 0 0.4rem 0 0.8rem;
-    }
-    
-    &:last-child::after {
-      content: "";
-      padding: 0 0.4rem 0 0.8rem;
-    }
-  }
+}
+.footer .footer-social-content {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
 }

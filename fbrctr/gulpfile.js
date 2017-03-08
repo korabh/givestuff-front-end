@@ -32,7 +32,8 @@ var config = {
 			toolkit: 'src/assets/toolkit/styles/toolkit.scss'
 		},
 		images: 'src/assets/toolkit/images/**/*',
-		views: 'src/toolkit/views/*.html'
+		views: 'src/toolkit/views/*.html',
+		fonts: 'src/assets/toolkit/fonts/**/*'
 	},
 	browsers: [
 		'Android >= 2.3',
@@ -121,6 +122,16 @@ gulp.task('favicon', function () {
 		.pipe(gulp.dest(config.dest));
 });
 
+// fonts
+gulp.task('fonts', function () {
+	return gulp.src(config.src.fonts)
+		.pipe(gulp.dest(config.dest + '/assets/toolkit/fonts'));
+});
+
+gulp.task('favicon', function () {
+	return gulp.src('./src/favicon.ico')
+		.pipe(gulp.dest(config.dest));
+});
 
 // assemble
 gulp.task('assemble', function (done) {
@@ -144,6 +155,14 @@ gulp.task('serve', function () {
 		logPrefix: 'FABRICATOR'
 	});
 
+// motion 
+
+gulp.task('motion', function() {
+	return gulp.src('./src/scss/app.scss')
+  .pipe(sass({
+    includePaths: ['node_modules/motion-ui/src']
+  }));
+});
 	/**
 	 * Because webpackCompiler.watch() isn't being used
 	 * manually remove the changed file path from the cache
@@ -178,7 +197,8 @@ gulp.task('serve', function () {
 	gulp.task('images:watch', ['images'], reload);
 	gulp.watch(config.src.images, ['images:watch']);
 
-
+	gulp.task('fonts:watch', ['fonts'], reload);
+	gulp.watch(config.src.fonts, ['fonts:watch']);
 
 });
 
@@ -191,6 +211,7 @@ gulp.task('default', ['clean'], function () {
 		'styles',
 		'scripts',
 		'images',
+		'fonts',
 		'assemble'
 	];
 
