@@ -59,26 +59,50 @@ $(document).ready(function () {
   //console.log('Script kiddies of the world unite.')
   $(document).foundation();
 
+// jQuery of closing tab when touching ESC
+
 	$( document ).on( 'keydown', function ( e ) {
     if ( e.keyCode === 27 ) {
         $( '.offcanvas-section' ).removeClass('open');
     }
 	});
 
-  $( ".sign-pop" ).click(function() {
+// jQuery opening the off-canvas of signin in and creating a new account
+
+  $( ".login-pop" ).click(function() {
 	  $('.offcanvas-section').addClass( "open" );
+	  $('.open-sign-in').addClass( 'is-active');
+		$('.open-account').removeClass( 'is-active' );
 	});
+
+	$('.sign-pop').click(function(){
+		$('.offcanvas-section').addClass( 'open' );
+		$('.open-sign-in').removeClass( 'is-active');
+		$('.open-account').addClass( 'is-active' );
+	});
+
 	$( '.close-offcanvas').click(function(){
 		$('.offcanvas-section').removeClass( "open" );
 	});
 
+// jQyery of Animated Hamburger
+
 	$('.click').on('click', function() {
 	  $(this).toggleClass('open');
 	});
+
+// jQuery of changing Desktop nav color when its his size while scrolling
+
+  $(document).scroll(function () {
+	  var $nav = $(".top-bar");
+	  $nav.toggleClass('scrolled-desktop', $(this).scrollTop() > $nav.height());
+	});
+
+// jQuery of changing Mobile nav color when its his size while scrolling
 	
   $(document).scroll(function () {
-	  var $nav = $(".title-bar-responsive");
-	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	  var $nav = $(".top-bar-responsive");
+	  $nav.toggleClass('scrolled-mobile', $(this).scrollTop() > $nav.height());
 	});
 
 });

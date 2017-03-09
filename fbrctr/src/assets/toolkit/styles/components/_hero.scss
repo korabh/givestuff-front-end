@@ -1,37 +1,62 @@
 $hero-color: white;
 
 .hero {  
-  background-color: #324766;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 400px;
-  
-  .hero-logo img {
-    height: 4em;
-    margin-bottom: 1em;
-  }
+  @include breakpoint(medium down) {
+    padding-top: rem-calc(65);
+  };
+  @include breakpoint(xsmall down) {
+    min-height: 300px;
+  };
+  background-color: $hero-color;
+  min-height: 500px;
+  padding-top: rem-calc(85);
 
   .hero-inner {
-    @include clearfix;
-    margin: auto;
-    padding: 3.5em;
+    @include breakpoint(xsmall down) {
+      line-height: 300px;
+    };
+    @include breakpoint(xsmall down) {
+      @include grid-column(12);      
+    };
+    @include grid-column(8);
+    @include grid-column-position(center);
     text-align: center;
+    line-height: 500px;
+  }
+}
 
-    .hero-copy {
-      text-align: center;
-      
-      h1 {
-        color: $hero-color;
-        font-size: 1.6em;
-        margin-bottom: 0.5em;
+.hero .hero-items {
+  vertical-align: middle;
+  display: inline-block;
+  h1 {
+    font-family: 'kulturistalight';
+  }
+  form {
+    @include breakpoint(small down) {
+      width: 90%;
+      font-size: rem-calc(13);
+      input {
+        font-size: rem-calc(13);
+        text-align: center;
       }
-
-      p {
-        color: $hero-color;
-        line-height: 1.4em;
-        margin: 0 auto; 
+    };
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    input {
+      @include scut-padding(n rem-calc(25));
+      border: none;   
+      border-bottom: 1px solid black;
+      box-shadow: none;
+      background: white;
+      &::placeholder { /* Chrome/Opera/Safari */
+       color: #000;
       }
+    }
+    i {
+      position: absolute;
+      left: 0;
+      bottom: 12px;
     }
   }
 }
