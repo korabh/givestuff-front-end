@@ -11,6 +11,8 @@ require('babel-polyfill');
 // Because no path was specified, Module will be included from "node_modules"
 //var $ = require('jquery');
 
+require('../../vendor/typed.js/js/typed.js');
+
 // For Bower Components
 // Because Bower does not force a module structure, you have use a more specific path.
 
@@ -104,5 +106,27 @@ $(document).ready(function () {
 	  var $nav = $(".top-bar-responsive");
 	  $nav.toggleClass('scrolled-mobile', $(this).scrollTop() > $nav.height());
 	});
+
+// jQuery autotype typed.
+
+$("#typed").typed({
+    stringsElement: $('#typed-strings'),
+    loop: true
+});
+
+// jQuery main search typed
+
+$(".typed-input, .typed-search, #typed-strings span").on('click', function(){
+	$('.typed-search').hide();
+	$('.typed-input').focus();
+});
+
+$('html').on('click', function(e){
+    if (!$(e.target).is(".typed-input, #typed")) {
+      var $this = $(this);
+      $('.typed-search').show();
+  	  $('.typed-input').val('');
+    }
+});
 
 });

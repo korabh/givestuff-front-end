@@ -14,11 +14,12 @@ $hero-color: white;
   .hero-inner {
     @include breakpoint(xsmall down) {
       line-height: 300px;
-    };
-    @include breakpoint(xsmall down) {
-      @include grid-column(12);      
-    };
-    @include grid-column(8);
+      @include grid-column(10);
+    }
+    @include breakpoint(medium down) {
+      @include grid-column(10);
+    }
+    @include grid-column(6);
     @include grid-column-position(center);
     text-align: center;
     line-height: 500px;
@@ -32,21 +33,13 @@ $hero-color: white;
     font-family: 'kulturistalight';
   }
   form {
-    @include breakpoint(small down) {
-      width: 90%;
-      font-size: rem-calc(13);
-      input {
-        font-size: rem-calc(13);
-        text-align: center;
-      }
-    };
     position: relative;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     input {
       @include scut-padding(n rem-calc(25));
       border: none;   
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid #bfbfbf;
       box-shadow: none;
       background: white;
       &::placeholder { /* Chrome/Opera/Safari */
@@ -58,5 +51,28 @@ $hero-color: white;
       left: 0;
       bottom: 12px;
     }
+    @include breakpoint (xsmall only) {
+      font-size: rem-calc(13);
+      input {
+        font-size: rem-calc(13);
+      }
+    }
+    @include breakpoint(small only) {
+      width: 100%;
+      font-size: rem-calc(13);
+      input {
+        @include scut-padding(n rem-calc(0));
+        font-size: rem-calc(13);
+        text-align: center;
+      }
+    }
   }
+}
+
+.typed-search {
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  bottom: 9px;
+  left: 30px;
 }
