@@ -58,7 +58,8 @@
 // End of top bar responsive
 
 .top-bar .top-bar-left {
-	@include grid-column(20%);
+	position: absolute;
+	left: 2.5%;
 	transition: all 0.2s;
 }
 .top-bar-left a img {
@@ -66,11 +67,14 @@
 	width: rem-calc(107);
 }
 .top-bar .top-bar-center {
-	@include grid-column(60%);
+	@include grid-column(100%);
+	@include grid-column-position(center);
 	text-align: center;
 }
 .top-bar .top-bar-right {
-	@include grid-column(20%);
+	top: 0;
+	position: absolute;
+	right: 2.5%;
 }
 .top-bar ul > * {
 	vertical-align: middle;

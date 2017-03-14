@@ -4,10 +4,10 @@
 }
 // Commit test
 @mixin gradient-background() {
-	// Needs latest Compass, add '@import "compass"' to your scss
-	// Permalink - use to edit and share this gradient:
-	// http://colorzilla.com/gradient-editor/#f62f88+0,f4a481+100
-	background-color: rgb(246,47,136); // Old browsers
-	@include filter-gradient(#f62f88, #f4a481, vertical); // IE6-9
-	@include background-image(linear-gradient(top,  rgb(246,47,136) 0%,rgb(244,164,129) 100%));
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5a184+0,e94e8c+100&0.8+0,0.5+100 */
+background: -moz-linear-gradient(top,  rgba(229,161,132,0.9) 0%, rgba(233,78,140,0.9) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(229,161,132,0.9) 0%,rgba(233,78,140,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(229,161,132,0.9) 0%,rgba(233,78,140,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80e5a184', endColorstr='#80e94e8c',GradientType=0 ); /* IE6-9 */
+
 }

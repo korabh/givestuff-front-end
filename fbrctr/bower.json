@@ -18,7 +18,8 @@
   "devDependencies": {
     "jquery": "~2.1.4",
     "foundation-sites": "~6.2.4",
-    "typed.js": "^1.1.4"
+    "typed.js": "^1.1.4",
+    "isotope": "^3.0.3"
   },
   "scripts": {
     "gulp": "gulp",

@@ -1,10 +1,17 @@
 <div class="card">
-  <img src="http://placekitten.com/g/400/200">
-  <div class="card-divider">
-    This is a header
-  </div>
-  <div class="card-section">
-    <h4>Look at This Swag Card</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi iusto reprehenderit voluptatem odio deleniti provident aliquam qui magnam aspernatur necessitatibus.</p>
-  </div>
+	<img src="{{image @root.baseurl image}}">
+	<div class="card-inner">
+		<div class="card-section hide-on-hover">
+			<span><span class="icon-location"></span>{{location}}</span>
+			<h4>{{name}}</h4>
+		</div>
+	</div>
+	<div class="card-inner-hover card-section">
+		<span><span class="icon-location"></span><a href="#">{{location}}</a></span>
+		<h4><a href="#">{{name}}</a></h4>
+		<ul class="menu hide">
+			<li><a href="#"><span class="icon-square"></span>clothes</a></li>
+			<li><a href="#"><span class="icon-square"></span>food</a></li>
+		</ul>
+	</div>
 </div>

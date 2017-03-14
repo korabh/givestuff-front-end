@@ -13,6 +13,9 @@ require('babel-polyfill');
 
 require('../../vendor/typed.js/js/typed.js');
 
+// require('../../vendor/imagesloaded/imagesloaded.pkgd.js');
+require('../../vendor/isotope/dist/isotope.pkgd.js');
+
 // For Bower Components
 // Because Bower does not force a module structure, you have use a more specific path.
 
@@ -128,5 +131,14 @@ $('html').on('click', function(e){
   	  $('.typed-input').val('');
     }
 });
+
+// masonry and isotope
+
+	var $grid = $('.isotope').isotope({
+	  itemSelector: '.card',
+	  masonry: {
+	    columnWidth: '.grid-sizer'
+	  }
+	});
 
 });

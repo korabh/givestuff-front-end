@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('#{$icomoon-font-path}/icomoon.eot?g29rir');
-  src:  url('#{$icomoon-font-path}/icomoon.eot?g29rir#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/icomoon.ttf?g29rir') format('truetype'),
-    url('#{$icomoon-font-path}/icomoon.woff?g29rir') format('woff'),
-    url('#{$icomoon-font-path}/icomoon.svg?g29rir#icomoon') format('svg');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?z3hzy2');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?z3hzy2#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?z3hzy2') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?z3hzy2') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?z3hzy2#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-square {
+  &:before {
+    content: $icon-square;
+  }
+}
+.icon-search-icon {
+  &:before {
+    content: $icon-search-icon;
+  }
+}
+.icon-location {
+  &:before {
+    content: $icon-location;
+  }
+}
 .icon-password-icon {
   &:before {
     content: $icon-password-icon;

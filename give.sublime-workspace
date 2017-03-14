@@ -80,53 +80,42 @@
 	"buffers":
 	[
 		{
+			"file": "fbrctr/src/views/pages/home.html",
+			"settings":
+			{
+				"buffer_size": 351,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "fbrctr/src/materials/organisms/hero.html",
 			"settings":
 			{
-				"buffer_size": 388,
+				"buffer_size": 648,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "fbrctr/src/views/layouts/default.html",
+			"file": "fbrctr/src/data/card.yml",
 			"settings":
 			{
-				"buffer_size": 1105,
+				"buffer_size": 982,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Unix",
+				"name": "needer.yml"
 			}
 		},
 		{
-			"file": "fbrctr/bower.json",
+			"contents": "$card-h4: \n\n.card {\n  position: relative;\n}\n.card-inner {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  height: 100%;\n  @include scut-padding(rem-calc(40) rem-calc(35));\n}\n.card-section {\n  position: absolute;\n  bottom: 35px;\n\n  h4 {\n    \n  }\n}\n",
+			"file": "fbrctr/src/assets/toolkit/styles/components/_card.scss",
+			"file_size": 339,
+			"file_write_time": 131338717290000000,
 			"settings":
 			{
-				"buffer_size": 728,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "fbrctr/src/assets/toolkit/scripts/toolkit.js",
-			"settings":
-			{
-				"buffer_size": 4693,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "fbrctr/src/assets/toolkit/styles/components/_hero.scss",
-			"settings":
-			{
-				"buffer_size": 1450,
+				"buffer_size": 251,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "fbrctr/src/assets/toolkit/styles/components/_top-bar.scss",
-			"settings":
-			{
-				"buffer_size": 2557,
 				"line_ending": "Unix"
 			}
 		}
@@ -177,32 +166,42 @@
 	[
 		"/Users/labinotjaha/Desktop/Projects/give",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/dist",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/scripts",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/vendor",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/images",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/images/needer",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/utils",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/data",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/blocks",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/organisms",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/views",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/views/layouts"
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/views/pages"
 	],
 	"file_history":
 	[
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/vendor/typed.js/index.htm",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/scripts/toolkit.js",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/views/layouts/default.html",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/blocks/card.html",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/toolkit.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/scripts/toolkit.js",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/needer.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/organisms/needer.html",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_hero.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_top-bar.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/views/layouts/default.html",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/vendor/typed.js/index.htm",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/organisms/header.html",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/_settings.scss",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/organisms/hero.html",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/navigation/top-bar.html",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/navigation/offcanvas-form.html",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_offcanvas-form.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_top-bar.scss",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/_global.scss",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_responsive.scss",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/navigation/off-canvas.html",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_hero.scss",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/layout/_header.scss",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/organisms/footer.html",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/utils/_spacing.scss",
@@ -275,6 +274,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"location: Prishtina, Kosova",
+			"d",
+			"price",
+			"price: '40€'",
+			"Shiten drut Ahu dhe Bungu",
+			"search",
+			"test",
+			"tester",
+			"console.log",
+			"0p",
 			"scut",
 			"typed",
 			"modern",
@@ -385,52 +394,54 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "fbrctr/src/materials/organisms/hero.html",
+					"file": "fbrctr/src/views/pages/home.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 388,
+						"buffer_size": 351,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								388,
-								388
+								315,
+								315
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "fbrctr/src/views/layouts/default.html",
+					"file": "fbrctr/src/materials/organisms/hero.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1105,
+						"buffer_size": 648,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1076,
-								1076
+								536,
+								536
 							]
 						],
 						"settings":
@@ -439,7 +450,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 458.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -447,24 +458,53 @@
 				},
 				{
 					"buffer": 2,
-					"file": "fbrctr/bower.json",
-					"semi_transient": true,
+					"file": "fbrctr/src/data/card.yml",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 728,
+						"buffer_size": 982,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								71,
+								44
+							],
+							[
+								166,
+								193
+							],
+							[
+								288,
+								315
+							],
+							[
+								410,
+								437
+							],
+							[
+								532,
+								559
+							],
+							[
+								654,
+								681
+							],
+							[
+								776,
+								803
+							],
+							[
+								898,
+								925
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"auto_name": "needer.yml",
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -472,35 +512,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "fbrctr/src/assets/toolkit/scripts/toolkit.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4693,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 88.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -510,20 +522,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 4,
-					"file": "fbrctr/src/assets/toolkit/styles/components/_hero.scss",
+					"buffer": 3,
+					"file": "fbrctr/src/assets/toolkit/styles/components/_card.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1450,
+						"buffer_size": 251,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								572,
-								572
+								151,
+								151
 							]
 						],
 						"settings":
@@ -537,34 +549,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "fbrctr/src/assets/toolkit/styles/components/_top-bar.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2557,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								157,
-								139
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -598,7 +582,7 @@
 		"cols":
 		[
 			0.0,
-			0.713690539676,
+			0.384818952645,
 			1.0
 		],
 		"rows":
@@ -640,7 +624,7 @@
 		[
 			[
 				"",
-				"~/Desktop/Projects/girlswhocode/girlswhocode.sublime-project"
+				"~/Desktop/Projects/bopazar/bopzr.sublime-project"
 			]
 		],
 		"width": 380.0

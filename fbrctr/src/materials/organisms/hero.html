@@ -18,3 +18,11 @@
 	</div>
 </div>
 
+<section class="needer-box">
+	<div class="isotope">
+	  <div class="grid-sizer"></div>
+		{{#each card.items }}
+		  {{> blocks.card location=this.location name=this.name imageurl=this.image }}
+		{{/each}}
+	</div>
+</section>
