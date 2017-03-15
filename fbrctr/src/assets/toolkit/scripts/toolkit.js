@@ -12,6 +12,7 @@ require('babel-polyfill');
 //var $ = require('jquery');
 
 require('../../vendor/typed.js/js/typed.js');
+require('../../vendor/select2/dist/js/select2.js');
 
 // For Bower Components
 // Because Bower does not force a module structure, you have use a more specific path.
@@ -69,6 +70,15 @@ $(document).ready(function () {
     }
 	});
 
+// select2
+
+$(".js-example-basic-multiple").select2({
+	placeholder: "Rest in rest"
+});
+
+var selectIcon = $('<span class="icon-login-icon select-icon"></span>');
+$( ".selection" ).append( selectIcon );
+
 // jQuery opening the off-canvas of signin in and creating a new account
 
   $( ".login-pop" ).click(function() {
@@ -109,24 +119,24 @@ $(document).ready(function () {
 
 // jQuery autotype typed.
 
-$("#typed").typed({
-    stringsElement: $('#typed-strings'),
-    loop: true
-});
+// $("#typed").typed({
+//     stringsElement: $('#typed-strings'),
+//     loop: true
+// });
 
 // jQuery main search typed
 
-$(".typed-input, .typed-search, #typed-strings span").on('click', function(){
-	$('.typed-search').hide();
-	$('.typed-input').focus();
-});
+// $(".typed-input, .typed-search, #typed-strings span").on('click', function(){
+// 	$('.typed-search').hide();
+// 	$('.select-form, .select2').focus();
+// });
 
-$('html').on('click', function(e){
-    if (!$(e.target).is(".typed-input, #typed")) {
-      var $this = $(this);
-      $('.typed-search').show();
-  	  $('.typed-input').val('');
-    }
-});
+// $('html').on('click', function(e){
+//     if (!$(e.target).is(".select-form, .select2, #typed")) {
+//       var $this = $(this);
+//       $('.typed-search').show();
+//   	  $('.select-form, .select2').val('');
+//     }
+// });
 
 });
