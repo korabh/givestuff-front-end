@@ -73,7 +73,7 @@ $(document).ready(function () {
 // select2
 
 $(".js-example-basic-multiple").select2({
-	placeholder: "Rest in rest"
+	placeholder: "What can you donate?"
 });
 
 var selectIcon = $('<span class="icon-login-icon select-icon"></span>');
