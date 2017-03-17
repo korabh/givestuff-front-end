@@ -1,37 +1,82 @@
 $hero-color: white;
 
 .hero {  
-  background-color: #324766;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 400px;
-  
-  .hero-logo img {
-    height: 4em;
-    margin-bottom: 1em;
-  }
+  @include breakpoint(medium down) {
+    padding-top: rem-calc(65);
+  };
+  @include breakpoint(xsmall down) {
+    min-height: 300px;
+  };
+  background-color: $hero-color;
+  min-height: 500px;
+  padding-top: rem-calc(85);
 
   .hero-inner {
-    @include clearfix;
-    margin: auto;
-    padding: 3.5em;
+    @include breakpoint(xsmall down) {
+      line-height: 300px;
+      @include grid-column(10);
+    }
+    @include breakpoint(medium down) {
+      @include grid-column(10);
+    }
+    @include grid-column(6);
+    @include grid-column-position(center);
     text-align: center;
+    line-height: 500px;
+  }
+}
 
-    .hero-copy {
-      text-align: center;
-      
-      h1 {
-        color: $hero-color;
-        font-size: 1.6em;
-        margin-bottom: 0.5em;
-      }
-
-      p {
-        color: $hero-color;
-        line-height: 1.4em;
-        margin: 0 auto; 
+.hero .hero-items {
+  vertical-align: middle;
+  position: relative;
+  display: inline-block;
+  h1 {
+    font-family: 'kulturistalight';
+  }
+  .select-icon {
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 3px;
+  }
+  .select2-container {
+   width: 100%!important;
+   margin: 0 auto;
+   line-height: 0px;
+  }
+  .selection .select2-selection {
+    border:none;
+    padding-left: 20px;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+  }
+  .select2-container--default.select2-container--focus .select2-selection--multiple {
+    border:none;
+    border-bottom: 1px solid #000;
+  }
+  .select2-search {
+    input {
+      margin: 0px;
+      margin-top: 0px!important;
+      &::placeholder {
+        color: black;
       }
     }
   }
+  .select-tags{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    line-height: 0px
+  }
 }
+
+// .typed-search {
+//   height: 20px;
+//   line-height: 20px;
+//   position: absolute;
+//   bottom: 9px;
+//   left: 30px;
+// }

@@ -8,7 +8,8 @@
   '../../vendor/Scut/dist/scut',
   '../../vendor/foundation-sites/scss/foundation',
   '../../vendor/font-awesome/scss/font-awesome',
-  '../../vendor/motion-ui/src/motion-ui';
+  '../../vendor/motion-ui/src/motion-ui',
+  '../../vendor/select2/src/scss/core';
 
 // 1. Configuration and helpers
 @import
@@ -73,7 +74,6 @@
   'components/inputs',
   'components/card',
   'components/animations',
-  'components/responsive',
   'components/hero',
   'components/offcanvas-form',
   'components/login',

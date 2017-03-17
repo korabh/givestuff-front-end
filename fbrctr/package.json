@@ -53,6 +53,11 @@
     "lodash": "^4.11.1",
     "run-sequence": "^1",
     "script-loader": "^0.6.1",
+    "select2": "^4.0.3",
     "webpack": "^1.12.1"
+  },
+  "dependencies": {
+    "bower": "^1.8.0",
+    "normalize-css": "^2.3.1"
   }
 }

@@ -11,6 +11,9 @@ require('babel-polyfill');
 // Because no path was specified, Module will be included from "node_modules"
 //var $ = require('jquery');
 
+require('../../vendor/typed.js/js/typed.js');
+require('../../vendor/select2/dist/js/select2.js');
+
 // For Bower Components
 // Because Bower does not force a module structure, you have use a more specific path.
 
@@ -59,26 +62,81 @@ $(document).ready(function () {
   //console.log('Script kiddies of the world unite.')
   $(document).foundation();
 
+// jQuery of closing tab when touching ESC
+
 	$( document ).on( 'keydown', function ( e ) {
     if ( e.keyCode === 27 ) {
         $( '.offcanvas-section' ).removeClass('open');
     }
 	});
 
-  $( ".sign-pop" ).click(function() {
+// select2
+
+$(".js-example-basic-multiple").select2({
+	placeholder: "What can you donate?"
+});
+
+var selectIcon = $('<span class="icon-login-icon select-icon"></span>');
+$( ".selection" ).append( selectIcon );
+
+// jQuery opening the off-canvas of signin in and creating a new account
+
+  $( ".login-pop" ).click(function() {
 	  $('.offcanvas-section').addClass( "open" );
+	  $('.open-sign-in').addClass( 'is-active');
+		$('.open-account').removeClass( 'is-active' );
 	});
+
+	$('.sign-pop').click(function(){
+		$('.offcanvas-section').addClass( 'open' );
+		$('.open-sign-in').removeClass( 'is-active');
+		$('.open-account').addClass( 'is-active' );
+	});
+
 	$( '.close-offcanvas').click(function(){
 		$('.offcanvas-section').removeClass( "open" );
 	});
 
+// jQyery of Animated Hamburger
+
 	$('.click').on('click', function() {
 	  $(this).toggleClass('open');
 	});
+
+// jQuery of changing Desktop nav color when its his size while scrolling
+
+  $(document).scroll(function () {
+	  var $nav = $(".top-bar");
+	  $nav.toggleClass('scrolled-desktop', $(this).scrollTop() > $nav.height());
+	});
+
+// jQuery of changing Mobile nav color when its his size while scrolling
 	
   $(document).scroll(function () {
-	  var $nav = $(".title-bar-responsive");
-	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	  var $nav = $(".top-bar-responsive");
+	  $nav.toggleClass('scrolled-mobile', $(this).scrollTop() > $nav.height());
 	});
+
+// jQuery autotype typed.
+
+// $("#typed").typed({
+//     stringsElement: $('#typed-strings'),
+//     loop: true
+// });
+
+// jQuery main search typed
+
+// $(".typed-input, .typed-search, #typed-strings span").on('click', function(){
+// 	$('.typed-search').hide();
+// 	$('.select-form, .select2').focus();
+// });
+
+// $('html').on('click', function(e){
+//     if (!$(e.target).is(".select-form, .select2, #typed")) {
+//       var $this = $(this);
+//       $('.typed-search').show();
+//   	  $('.select-form, .select2').val('');
+//     }
+// });
 
 });

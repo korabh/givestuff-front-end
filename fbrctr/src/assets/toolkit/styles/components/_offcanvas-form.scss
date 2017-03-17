@@ -34,7 +34,7 @@
 			padding: 0px;
 			color: #959595;
 			outline: none;
-			&:hover {
+			&:hover, &:link {
 				background:none;
 			}
 		}
@@ -71,34 +71,34 @@
   }
   label {
 		position: relative;
-	  	input, input:focus {
-	  		font-size: rem-calc(13);
-	  		background-color: initial;
-	  		border: none;
-	  		padding: 0px;
-	  		border-bottom: 1px solid #606060;
-	  		box-shadow: none;
-	  		color: $white;
-	  	}
-	  	span {
-	  		position: absolute;
-	  		color: $white;
-	  		top: 10px;
-	  		font-size: 18px;
-	  		right: 0;
-	  	}
-			input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-			 color: $white;
-			}
-			input::-moz-placeholder { /* Firefox 19+ */
-				color: $white;
-			}
-			input:-ms-input-placeholder { /* IE 10+ */
-				color: $white;
-			}
-			input:-moz-placeholder { /* Firefox 18- */
-				color: $white;
-			}
+  	input, input:focus {
+  		font-size: rem-calc(13);
+  		background-color: initial;
+  		border: none;
+  		padding: 0px;
+  		border-bottom: 1px solid #606060;
+  		box-shadow: none;
+  		color: $white;
+  	}
+  	span {
+  		position: absolute;
+  		color: $white;
+  		top: 10px;
+  		font-size: 18px;
+  		right: 0;
+  	}
+		input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		 color: $white;
+		}
+		input::-moz-placeholder { /* Firefox 19+ */
+			color: $white;
+		}
+		input:-ms-input-placeholder { /* IE 10+ */
+			color: $white;
+		}
+		input:-moz-placeholder { /* Firefox 18- */
+			color: $white;
+		}
   }
 }
 
