@@ -10,11 +10,11 @@ require('babel-polyfill');
 // For Node Modules
 // Because no path was specified, Module will be included from "node_modules"
 //var $ = require('jquery');
-
-require('../../vendor/typed.js/js/typed.js');
-
 // require('../../vendor/imagesloaded/imagesloaded.pkgd.js');
 require('../../vendor/isotope/dist/isotope.pkgd.js');
+
+// Select2 script
+require('../../vendor/select2/dist/js/select2.js');
 
 // For Bower Components
 // Because Bower does not force a module structure, you have use a more specific path.
@@ -53,7 +53,12 @@ var foundationResponsive = require('../../vendor/foundation-sites/js/foundation.
 // console.log($);
 // $('h1').fadeOut(2000);
 
-
+// Init select2 input.
+$(".search-box").select2({
+	placeholder: "What can you donate?"
+});
+var selectIcon = $('<span class="icon-login-icon select-icon"></span>');
+$( ".selection" ).append( selectIcon );
 
 // Use for custom Pattern Libary Modules
 // var fooModule = require('./foo-module');
@@ -110,19 +115,7 @@ $(document).ready(function () {
 	  $nav.toggleClass('scrolled-mobile', $(this).scrollTop() > $nav.height());
 	});
 
-// jQuery autotype typed.
 
-$("#typed").typed({
-    stringsElement: $('#typed-strings'),
-    loop: true
-});
-
-// jQuery main search typed
-
-$(".typed-input, .typed-search, #typed-strings span").on('click', function(){
-	$('.typed-search').hide();
-	$('.typed-input').focus();
-});
 
 $('html').on('click', function(e){
     if (!$(e.target).is(".typed-input, #typed")) {

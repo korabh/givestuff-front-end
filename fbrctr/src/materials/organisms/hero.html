@@ -1,21 +1,21 @@
 <div class="hero">
-	<div class="row hero-inner">
-		<div class="hero-items">
-	  	<h1>Give is a new way for you to help people in need</h1>
-	  	<div class="margin-bottom--2x"></div>
-	  	<form>
-				<span class="icon-search-icon"></span>
-	  		<input type="search" class="typed-input">
-		  	<div class="typed-search">
-			  	<div id="typed-strings">
-					    <p>What can you donate?</p>
-					    <p>How can you donate?</p>
-					</div>
-					<span id="typed"></span>
-				</div>
-	  	</form>
-  	</div>
-	</div>
+  <div class="row hero-inner">
+    <div class="hero-items">
+      <h1>Give is a new way for you to help people in need</h1>
+      
+      <div class="margin-bottom--2x"></div>
+      <div class="select-tags">
+        <select class="search-box" multiple="multiple" placeholder="Mode of enquiry">
+          <option value="AL">Food</option>
+          <option value="AL">Clothes</option>
+          <option value="AL">Computers</option>
+          <option value="AL">Books</option>
+          <option value="AL">Money</option>
+          <option value="AL">Wash Machine</option>
+        </select>
+      </div>
+    </div>
+  </div>
 </div>
 
 <section class="needer-box">
@@ -34,17 +34,17 @@
 			</ul>
 		</ul>
 		<a href="#" class="filter-button"><i class="fa fa-cog" aria-hidden="true"></i>More filters</a>	</div>
-	<div class="isotope">
-	  <div class="grid-sizer"></div>
-		{{#each card.items }}
-		  {{> blocks.card category=this.category location=this.location name=this.name imageurl=this.image }}
-		{{/each}}
-	</div>
-</section>
+   <div class="isotope">
+     <div class="grid-sizer"></div>
+     {{#each card.items }}
+     {{> blocks.card category=this.category location=this.location name=this.name imageurl=this.image }}
+     {{/each}}
+   </div>
+ </section>
 
-<p><a data-toggle="exampleModal9">Click me for an overlay-lacking modal</a></p>
+ <p><a data-toggle="exampleModal9">Click me for an overlay-lacking modal</a></p>
 
-<div class="reveal" id="exampleModal9" data-reveal data-overlay="false">
+ <div class="reveal" id="exampleModal9" data-reveal data-overlay="false">
   <p>I feel so free!</p>
   <button class="close-button" data-close aria-label="Close reveal" type="button">
     <span aria-hidden="true">&times;</span>

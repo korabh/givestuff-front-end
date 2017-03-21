@@ -32,6 +32,44 @@ $hero-color: white;
   h1 {
     font-family: 'kulturistalight';
   }
+    .select-icon {
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 3px;
+  }
+  .select2-container {
+   width: 100%!important;
+   margin: 0 auto;
+   line-height: 0px;
+  }
+  .selection .select2-selection {
+    border:none;
+    padding-left: 20px;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+  }
+  .select2-container--default.select2-container--focus .select2-selection--multiple {
+    border:none;
+    border-bottom: 1px solid #000;
+  }
+  .select2-search {
+    input {
+      margin: 0px;
+      margin-top: 0px!important;
+      &::placeholder {
+        color: black;
+      }
+    }
+  }
+  .select-tags{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    line-height: 0px
+  }
   form {
     position: relative;
     width: 70%;
