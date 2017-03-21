@@ -140,5 +140,25 @@ $('html').on('click', function(e){
 	    columnWidth: '.grid-sizer'
 	  }
 	});
+  
+  $('.filter-button-group li').on( 'click', function() {
+	  var filterValue = $(this).attr('data-filter');
+	  $grid.isotope({ filter: filterValue });
+	});
+
+	// more filters click showing more..
+
+	$('.filter-button').on('click', function(e) {
+		e.preventDefault();
+		$('.e-f').toggleClass('extra-filter');
+		$('.testera').toggleClass('filters-animation');
+	});
+
+
+	$('.tabs-title').on('click', function(){
+		$('li').removeClass('active');	
+		$(this).addClass('active');
+	});
+
 
 });

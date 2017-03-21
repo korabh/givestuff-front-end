@@ -1,4 +1,6 @@
 .needer-box {
+  position: relative;
+  padding-top: 55px;
   margin-left: 2.5%;
   margin-right: 2.5%;
 }
@@ -36,7 +38,7 @@
   }
 }
 .card-inner {
-  background-color: rgba(0 , 0 , 0 , 0.1);
+  background-color: rgba(0 , 0 , 0 , 0.3);
   position: absolute;
   bottom: 0;
   width: 100%;
