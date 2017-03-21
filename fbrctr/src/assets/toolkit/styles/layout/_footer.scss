@@ -1,0 +1,51 @@
+.footer {
+  background-color: $black;
+  min-height: 230px;
+  text-align: center;
+  // @include grid-column;
+}
+.footer .footer-logo {
+  @include grid-column(6);
+  @include breakpoint(small only) {
+    @include grid-column(12);
+    line-height:100px;
+    text-align: center;
+  }
+  text-align: left;
+  line-height: 230px;
+  vertical-align: middle;
+}
+.footer .footer-social {
+  @include grid-column(6);
+  @include breakpoint(small only) {
+    @include grid-column(12);
+    line-height:100px;
+    text-align: center;
+    ul li a:last-child{
+      padding-right: 16px!important;
+    }
+  }
+  line-height: 230px;
+  text-align: right;
+  p {
+    color: $white;
+  }
+  ul {
+    float: right;
+    li {
+      a {
+        color: $white;
+        text-transform: capitalize;
+        text-decoration: underline;
+      }
+      &:last-child {
+        a {padding-right : 0px};
+      }
+    }
+  }
+}
+.footer .footer-social-content {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}

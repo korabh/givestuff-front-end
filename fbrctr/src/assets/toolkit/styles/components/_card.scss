@@ -1,0 +1,93 @@
+.needer-box {
+  position: relative;
+  padding-top: 55px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+.isotope:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.grid-sizer,
+.card {
+  @include grid-col(12);
+  @include breakpoint( medium ) {
+    @include grid-col(6);
+  }
+  @include breakpoint( large ) {
+    @include grid-col(4);
+  }
+  padding: 0!important;
+} 
+.card {
+  &:hover {
+    .card-inner-hover {
+      opacity: 1;
+      @include scut-padding(rem-calc(25));
+    }
+    .hide-on-hover {
+      display: none;
+    }
+  }
+  float: left;
+  transition: all 0.5s ease;
+  position: relative;
+  img {
+    width: 100%;
+  }
+}
+.card-inner {
+  background-color: rgba(0 , 0 , 0 , 0.3);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  @include scut-padding(rem-calc(30) rem-calc(25));
+}
+.card-section {
+  @include scut-padding(n rem-calc(25) n n);
+  position: absolute;
+  bottom: 35px;
+  span {
+    margin-right: 10px;
+  }
+  h4, span {
+    color: white;
+    text-shadow: 0.3px 0.3px white;
+  }
+}
+.card-inner-hover {
+    transition: all 0.5s;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    h4 a, span a { color: white; }
+    @include gradient-background();
+    .menu.hide {
+      display: initial!important;
+      position: absolute;
+      bottom: 35px;
+      li {
+        position: relative;
+        margin-right: 25px;
+        text-transform: capitalize;
+        a {
+          color: white;
+          padding: 0;
+          &:after {
+            content: '';
+            margin-right: 15px;
+          }
+        }
+        span {
+          margin-right: 10px;
+        }
+      }
+    }
+    .card-section {
+      transition: all 5s linear;
+      top: 30px;
+    }
+  }

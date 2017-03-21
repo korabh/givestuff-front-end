@@ -1,0 +1,11 @@
+a {
+	transition: all 0.2s;
+	outline: none;
+	
+	&:focus {
+		outline:none!important;
+	}
+}
+body {
+	background-color: #ffffff;
+}

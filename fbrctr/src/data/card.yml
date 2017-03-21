@@ -1,0 +1,31 @@
+items:
+  - image: 'needer/Image001.jpg'
+    location: Prishtina, Kosova
+    name: 'Help Mira and her family with basic products'
+  - image: 'needer/Image002.jpg'
+    location: Prishtina, Kosova
+    name: 'Help Mira and her family with basic products'
+    category: 'near-me'
+  - image: 'needer/Image003.jpg'
+    location: Prishtina, Kosova
+    name: 'Help Mira and her family with basic products'
+  - image: 'needer/Image004.jpg'
+    location: Prishtina, Kosova
+    name: 'Help Mira and her family with basic products'
+  - image: 'needer/Image005.jpg'
+    location: Prishtina, Kosova
+    name: 'Help Mira and her family with basic products'
+    category: 'near-me'
+  - image: 'needer/Image006.jpg'
+    location: Prishtina, Kosova
+    name: 'Help Mira and her family with basic products'
+  - image: 'needer/Image007.jpg'
+    location: Prishtina, Kosova
+    name: 'Help Mira and her family with basic products'
+  - image: 'needer/Image008.jpg'
+    location: Prishtina, Kosova
+    name: 'Help Mira and her family with basic products'
+    category: 'near-me'
+  - image: 'needer/Image004.jpg'
+    location: Prishtina, Kosova
+    name: 'Help Mira and her family with basic products'
