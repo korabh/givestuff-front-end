@@ -110,7 +110,50 @@
 			text-decoration: underline;
 		}
 	}
+	.loged-in {
+			background-color: transparent;
+			h4 {
+				margin: 0px;
+				a {
+					text-decoration: none;
+				}
+				.inset {
+			    content: '';
+					display: inline-block;
+			    width: 0;
+			    height: 0;
+			    border: inset 4px;
+			    margin-left: 10px;
+			    border-bottom-width: 0;
+			    border-top-style: solid;
+			    border-color: #000 transparent transparent;
+				}
+			}
+			.submenu {
+				text-align: left;
+				min-width: 280px;
+				background-color: #2b2b2b;
+				@include scut-padding(rem-calc(30));
+				li {
+					border-bottom: 1px solid #606060;
+					padding: 20px 0px;
+					&:first-child {
+						padding-top: 0px;
+					}
+					&:last-child {
+						padding-bottom: 0px;
+						border: none;
+					}
+					a {
+						color: #f1f1f1;
+						font-size: 13px;
+						padding: 0px;
+					}
+				}
+			}
+		}
 }
+
 
 // Css of scrolled top-bar
 .scrolled-mobile {
