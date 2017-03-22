@@ -224,7 +224,7 @@ $hero-color: white;
 }
 .submenu-filters {
   position: absolute;
-  left: 168px;
+  top: 25px;
   width: 0;
   line-height: 22px;
   height: 22px;
@@ -236,7 +236,7 @@ $hero-color: white;
   }
 }
 .filters-animation {
-  width: 700px;
+  width: 100%;
   opacity: 1;
 }
 
