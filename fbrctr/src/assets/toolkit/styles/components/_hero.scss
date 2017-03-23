@@ -35,8 +35,8 @@ $hero-color: white;
     .select-icon {
     position: absolute;
     z-index: 1;
-    bottom: 10px;
-    left: 3px;
+    bottom: 12px;
+    left: 0;
   }
   .select2-container {
    width: 100%!important;
@@ -205,10 +205,19 @@ $hero-color: white;
     content: none;
   }
 }
-
-.testera {
+.select-tags select:valid ~ .results-found {
+  display: block;
+}
+.results-found {
+  display: none;
   position: absolute;
-  left: 168px;
+  bottom: 20px;
+  right: 0;
+  font-size: 14px;
+}
+.submenu-filters {
+  position: absolute;
+  top: 25px;
   width: 0;
   line-height: 22px;
   height: 22px;
@@ -220,7 +229,7 @@ $hero-color: white;
   }
 }
 .filters-animation {
-  width: 700px;
+  width: 100%;
   opacity: 1;
 }
 

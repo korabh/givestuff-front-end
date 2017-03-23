@@ -57,7 +57,7 @@ var foundationResponsive = require('../../vendor/foundation-sites/js/foundation.
 $(".search-box").select2({
 	placeholder: "What can you donate?"
 });
-var selectIcon = $('<span class="icon-login-icon select-icon"></span>');
+var selectIcon = $('<span class="icon-search-icon select-icon"></span>');
 $( ".selection" ).append( selectIcon );
 
 // Use for custom Pattern Libary Modules
@@ -115,15 +115,13 @@ $(document).ready(function () {
 	  $nav.toggleClass('scrolled-mobile', $(this).scrollTop() > $nav.height());
 	});
 
-
-
-$('html').on('click', function(e){
-    if (!$(e.target).is(".typed-input, #typed")) {
-      var $this = $(this);
-      $('.typed-search').show();
-  	  $('.typed-input').val('');
-    }
-});
+	$('html').on('click', function(e){
+	    if (!$(e.target).is(".typed-input")) {
+	      var $this = $(this);
+	      $('.typed-search').show();
+	  	  $('.typed-input').val('');
+	    }
+	});
 
 // masonry and isotope
 
@@ -143,15 +141,16 @@ $('html').on('click', function(e){
 
 	$('.filter-button').on('click', function(e) {
 		e.preventDefault();
-		$('.e-f').toggleClass('extra-filter');
-		$('.testera').toggleClass('filters-animation');
+		$('.submenu-filters').toggleClass('filters-animation');
 	});
-
 
 	$('.tabs-title').on('click', function(){
 		$('li').removeClass('active');	
 		$(this).addClass('active');
 	});
 
+	if($('.select2-selection__choice').is(':visible')) {
+		alert('hello moto');
+	};
 
 });
