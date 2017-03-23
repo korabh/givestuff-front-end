@@ -1,0 +1,65 @@
+.hiw-image {
+	clear: both;
+	@include grid-column(12);
+	@include breakpoint(xmedium) {
+		@include grid-column(6);
+		// line-height: 390px;
+	}
+	img {
+		width: 100%;
+	}
+}
+.hiw-content {
+	margin-top: 20px;
+	@include grid-column(12);
+	@include breakpoint(xmedium) {
+		@include grid-column(5);
+		// line-height: 390px;
+		margin-top: 0px;
+	}
+	.hiw-content-text {
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+		display: inline-block;
+		vertical-align: middle;
+		h3 {
+			font-family: 'kulturistalight';
+		}		
+		p {
+			font-weight: 300;
+			font-size: 16px;
+		}
+	}
+}
+.how-it-works {
+	padding-top: 65px;
+	@include breakpoint(xmedium) {
+		padding-top: 85px;
+	}
+	h1 {
+		text-align: center;
+		@include scut-margin(rem-calc(65) n);
+
+		@include breakpoint(xmedium) {
+			@include scut-margin(rem-calc(145) n);
+		}
+	}
+	@include grid-row();
+}
+.hiw-block {
+}
+// swaping columns for better responsive
+.swap {
+	.hiw-image {
+		float: right;
+	}
+	.hiw-content {
+		float: left!important;
+	}
+}
+
+
+
+
+

@@ -1,0 +1,10 @@
+{{> header}}
+
+<div class="how-it-works" data-equalizer data-equalize-on="medium">
+	<h1>How does it work</h1>
+	{{#each how-it-works.items }}
+	   {{> blocks.hiw-block class=this.class header=this.header paragraph=this.paragraph imageurl=this.image }}
+	{{/each}}
+</div>
+
+{{> footer}}

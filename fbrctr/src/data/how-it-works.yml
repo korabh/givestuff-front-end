@@ -1,0 +1,11 @@
+items:
+  - image: 'how-it-works/how-images001.jpg'
+    header: First you do this
+    paragraph: On the other hand, we denounce with righteous indignation and dislike men whoare so beguiled and demoralized by the charms of pleasure of the moment, soblinded by desire, that they cannot foresee the pain and trouble that are bound to
+  - image: 'how-it-works/how-images002.jpg'
+    header: Than we do this
+    paragraph: On the other hand, we denounce with righteous indignation and dislike men whoare so beguiled and demoralized by the charms of pleasure of the moment, soblinded by desire, that they cannot foresee the pain and trouble that are bound to
+    class: swap
+  - image: 'how-it-works/how-images003.jpg'
+    header: Finally this
+    paragraph: On the other hand, we denounce with righteous indignation and dislike men whoare so beguiled and demoralized by the charms of pleasure of the moment, soblinded by desire, that they cannot foresee the pain and trouble that are bound to

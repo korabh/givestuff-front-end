@@ -83,7 +83,7 @@
 			"file": "fbrctr/src/views/pages/home.html",
 			"settings":
 			{
-				"buffer_size": 351,
+				"buffer_size": 41,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -92,7 +92,7 @@
 			"file": "fbrctr/src/materials/organisms/hero.html",
 			"settings":
 			{
-				"buffer_size": 648,
+				"buffer_size": 2066,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -101,7 +101,7 @@
 			"file": "fbrctr/src/data/card.yml",
 			"settings":
 			{
-				"buffer_size": 982,
+				"buffer_size": 1176,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "needer.yml"
@@ -110,12 +110,11 @@
 		{
 			"contents": "$card-h4: \n\n.card {\n  position: relative;\n}\n.card-inner {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  height: 100%;\n  @include scut-padding(rem-calc(40) rem-calc(35));\n}\n.card-section {\n  position: absolute;\n  bottom: 35px;\n\n  h4 {\n    \n  }\n}\n",
 			"file": "fbrctr/src/assets/toolkit/styles/components/_card.scss",
-			"file_size": 339,
-			"file_write_time": 131338717290000000,
+			"file_size": 1703,
+			"file_write_time": 131345786300000000,
 			"settings":
 			{
 				"buffer_size": 251,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -394,7 +393,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -403,15 +402,45 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 351,
+						"buffer_size": 41,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								315,
-								315
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "fbrctr/src/materials/organisms/hero.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2066,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -428,77 +457,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "fbrctr/src/materials/organisms/hero.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 648,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								536,
-								536
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
 					"buffer": 2,
 					"file": "fbrctr/src/data/card.yml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 982,
+						"buffer_size": 1176,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								71,
-								44
-							],
-							[
-								166,
-								193
-							],
-							[
-								288,
-								315
-							],
-							[
-								410,
-								437
-							],
-							[
-								532,
-								559
-							],
-							[
-								654,
-								681
-							],
-							[
-								776,
-								803
-							],
-							[
-								898,
-								925
+								0,
+								0
 							]
 						],
 						"settings":
@@ -534,8 +506,8 @@
 						"selection":
 						[
 							[
-								151,
-								151
+								248,
+								248
 							]
 						],
 						"settings":
@@ -548,7 +520,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -624,7 +596,7 @@
 		[
 			[
 				"",
-				"~/Desktop/Projects/bopazar/bopzr.sublime-project"
+				"~/Desktop/Projects/give/fbrctr/give.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -638,7 +610,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
