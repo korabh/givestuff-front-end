@@ -4,7 +4,6 @@
 	@include grid-column(12);
 	@include breakpoint(xmedium) {
 		@include grid-column(6);
-		// line-height: 390px;
 	}
 	img {
 		width: 100%;
@@ -15,7 +14,6 @@
 	@include grid-column(12);
 	@include breakpoint(xmedium) {
 		@include grid-column(5);
-		// line-height: 390px;
 		margin-top: 0px;
 	}
 	.hiw-content-text {
