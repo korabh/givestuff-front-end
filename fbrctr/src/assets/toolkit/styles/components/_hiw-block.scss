@@ -1,4 +1,5 @@
 .hiw-image {
+	margin-bottom: 80px;
 	clear: both;
 	@include grid-column(12);
 	@include breakpoint(xmedium) {
