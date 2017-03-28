@@ -1,0 +1,30 @@
+.donee {
+	@include grid-row;
+}
+.donee .donee-data {
+	@include grid-column(8);
+	.tabs {
+		margin-bottom: 25px;
+		border: none;
+		background-color: #fff;
+		.tabs-title {
+			margin-right: 30px;
+			a {
+				padding: 0px;
+				color: #7f7f7f;
+				font-size: 16px;
+			}
+		}
+	}
+	.tabs-content {
+		border: none;
+		background: #fff;
+		.tabs-panel {
+			padding: 0px;
+		}
+	}
+}
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+	background-color: transparent;
+	color: #000!important;
+}

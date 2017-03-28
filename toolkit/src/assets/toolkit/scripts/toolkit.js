@@ -154,3 +154,7 @@ $(document).ready(function () {
 	};
 
 });
+
+require('../../vendor/progress-circle-js/progress-circle-js.js');
+
+

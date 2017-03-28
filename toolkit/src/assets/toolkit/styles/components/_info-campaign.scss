@@ -1,1 +1,43 @@
-_info-campaign.scss
+.info-campaign {
+	@include scut-padding(rem-calc(210) n rem-calc(140) n);
+	@include breakpoint(medium down) {
+		@include scut-padding(rem-calc(205) n n n);
+	}
+	@include grid-row;
+}
+ .info-campaign .info-campaign-title {
+  @include grid-column(6);
+ 	h1 {
+ 		font-size: 44px;
+ 		margin-bottom: 30px;
+ 	}
+	ul {
+		li {
+			font-size: 14px;
+			&:after {
+				content: '';
+				margin-right: 20px;
+			}
+			span {
+				margin-right: 10px;
+			}
+			a {
+				font-size: 14px;
+				color: #000000;
+				display: inline-block;
+				padding: 0px;
+				@include scut-margin(rem-calc(11) rem-calc(2))
+			}
+		}
+	}
+}
+.info-campaign .info-campaign-founded {
+  @include grid-column(6);
+	position: relative;
+	height: 188px;
+ p {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+  }
+}
