@@ -28,3 +28,71 @@
 	background-color: transparent;
 	color: #000!important;
 }
+
+#panel1v {
+	h5 {
+		font-family: 'kulturistalight';
+		font-style: 21px;
+	}
+	p {
+		font-size: 16px;
+		font-weight: 300;
+	}
+}
+
+.donee .donee-donate {
+	@include grid-column(4);
+	position: relative;
+  top: 41px;
+
+	.donation-button {
+		background-color: #f56485;
+		@include scut-padding(rem-calc(20) n)
+	}
+	.founded-profile-pic {
+		display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 50px;
+    overflow: hidden;
+		img {
+	    position: absolute;
+	    top: 50%;
+	    transform: translate(0%, -50%);
+		}
+	}
+	p {
+		font-size: 14px;
+	}
+	.button-group {
+		border: 1px solid #bfbfbf;
+		.button {
+			background-color: transparent;
+			color: #000;
+			position: relative;
+			@include scut-padding(rem-calc(20) n);
+			&:first-child {
+				&:after {
+					content: '';
+					height: 25px;
+					top: 15px;
+					background-color: #bfbfbf;
+					display: inline-block;
+					position: absolute;
+					width: 1px;
+					right: 0;
+				}
+			}
+			i {
+				margin-right: 10px;
+			}
+			.fa-facebook {
+				color: #5674b9;
+			}
+			.fa-twitter {
+				color: #46cbe8;
+			}
+		}
+	}
+}
