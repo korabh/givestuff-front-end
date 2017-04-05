@@ -4,7 +4,7 @@
 .donee .donee-data {
 	@include grid-column(8);
 	.tabs {
-		margin-bottom: 25px;
+		margin-bottom: 35px;
 		border: none;
 		background-color: #fff;
 		.tabs-title {
@@ -33,6 +33,7 @@
 	h5 {
 		font-family: 'kulturistalight';
 		font-style: 21px;
+		margin-top: 15px;
 	}
 	p {
 		font-size: 16px;
@@ -43,17 +44,21 @@
 .donee .donee-donate {
 	@include grid-column(4);
 	position: relative;
-  top: 41px;
+  top: 51px;
 
 	.donation-button {
 		background-color: #f56485;
 		@include scut-padding(rem-calc(20) n)
+	}
+	.founded-profiles {
+		margin-bottom: 25px;
 	}
 	.founded-profile-pic {
 		display: inline-block;
     width: 60px;
     height: 60px;
     position: relative;
+    margin-right: 10px;
     border-radius: 50px;
     overflow: hidden;
 		img {
@@ -81,7 +86,7 @@
 					display: inline-block;
 					position: absolute;
 					width: 1px;
-					right: 0;
+					right: -2px;
 				}
 			}
 			i {
@@ -96,3 +101,235 @@
 		}
 	}
 }
+
+
+
+
+
+.comments-container {
+	width: 100%;
+	h1 {
+		font-size: 36px;
+		color: #283035;
+		font-weight: 400;
+		a {
+			font-size: 18px;
+			font-weight: 700;
+		}
+	}
+	label {
+		margin-top: 50px;
+	}
+}
+
+
+.comments-list {
+	margin: 0px;
+	position: relative;
+	li {
+		margin-bottom: 15px;
+		display: block;
+		position: relative;
+		&:after {
+			content: '';
+			display: block;
+			clear: both;
+			height: 0;
+			width: 0;
+		}
+	}
+}
+
+.reply-list {
+	padding-left: 88px;
+	clear: both;
+	margin-bottom: 35px
+}
+
+.comments-list .comment-avatar {
+	width: 65px;
+	height: 65px;
+	position: relative;
+	z-index: 99;
+	float: left;
+	border-radius: 50px;
+	overflow: hidden;
+	img {
+		width: 100%;
+		height: 100%;
+	}
+}
+.comment-main-level {
+	margin-bottom: 35px;
+	&:after {
+			content: '';
+			width: 0;
+			height: 0;
+			display: block;
+			clear: both;
+	}
+}
+#type-your-comment {
+	border: none;
+	box-shadow: none;
+	background-color: transparent;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border-bottom: 1px solid #bfbfbf;
+	&::-webkit-input-placeholder {
+  	color: #111111;
+  }
+}
+.post-comment-btn {
+	@include scut-padding(rem-calc(15) rem-calc(45));
+	background-color: #000;
+	color: #fff;
+	margin-top: 35px;
+}
+.comments-list .comment-box {
+	width: 100%;
+	position: relative;
+  padding-left: 85px;
+  &:before {
+		border-width: 11px 13px 11px 0;
+		border-color: transparent rgba(0,0,0,0.05);
+		left: -12px;
+	}
+}
+
+.comment-box .comment-head {
+	overflow: hidden;
+	i {
+		float: right;
+		margin-left: 14px;
+		position: relative;
+		top: 2px;
+		color: #A6A6A6;
+		cursor: pointer;
+		-webkit-transition: color 0.3s ease;
+		-o-transition: color 0.3s ease;
+		transition: color 0.3s ease;
+		&:hover {
+			color: #bada55;
+		}
+	}
+}
+
+.comment-name {
+	font-size: 15px;
+	height: 24px;
+	margin-bottom: 10px;
+	a {
+		color: #000;
+	}
+}
+
+.admin-tag {
+	color: #fff;
+	font-size: 12px;
+	padding: 5px 10px;
+	background-color: #f56485;
+	margin-left: 20px;
+}
+
+.comment-box .comment-content {
+	.comment-content-p {
+		font-size: 14px;
+		margin-bottom: 10px;
+		color: #333333;
+	}
+	.comment-content-reply {
+		font-size: 13px;
+		color: #4c4c4c;
+		a {
+			color: #4c4c4c;
+			text-decoration: underline;
+			margin-left: 20px;
+		}
+	}
+}
+
+@media only screen and (max-width: 766px) {
+	.comments-container {
+		width: 480px;
+	}
+
+	.comments-list .comment-box {
+		width: 390px;
+	}
+
+	.reply-list .comment-box {
+		width: 320px;
+	}
+}
+
+
+
+
+
+.timeline-updates {
+	h2 {
+		font-size: 18px;
+    font-family: 'kulturistalight';
+    border-top: 1px solid #e4e4e4;
+    padding: 20px 0px;
+    margin-top: 40px;
+	}
+	ul {
+		margin: 0px;
+		list-style: none;
+		li {
+			height: 140px;
+			padding-left: 25px;
+			position: relative;
+			&:before {
+				content: "";
+				height: 10px;
+				width: 10px;
+				border-radius: 9px;
+				background-color: #f56485;
+				border: 1px solid #fff;
+				display: block;
+				position: absolute;
+				left: -3px;
+				top: 4px;
+				z-index: 2;
+			}
+			&:after {
+		    content: "";
+		    display: block;
+		    width: 2px;
+		    height: 100%;
+		    background-color: #f56485;
+		    position: absolute;
+		    left: 1px;
+		    top: 10px;
+		    z-index: 1;
+			}
+			&:last-child {
+				&:after {
+					display: none;
+				}
+			}
+		}
+	}
+}
+.timeline-card {
+	.timeline-date {
+		color: #f56485;
+		font-size: 13px;
+		font-weight: 300;
+	}
+	.timeline-description {
+		font-size: 17px;
+	}
+}
+
+
+
+
+
+
+
+
