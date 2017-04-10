@@ -57,6 +57,9 @@ var foundationResponsive = require('../../vendor/foundation-sites/js/foundation.
 $(".search-box").select2({
 	placeholder: "What can you donate?"
 });
+$(".new-search-box").select2({
+	placeholder: "Add tags"
+});
 var selectIcon = $('<span class="icon-search-icon select-icon"></span>');
 $( ".selection" ).append( selectIcon );
 
@@ -152,5 +155,19 @@ $(document).ready(function () {
 	if($('.select2-selection__choice').is(':visible')) {
 		alert('hello moto');
 	};
+// Uploader of image
+	$('.file-input').change(function(){
+    var curElement = $(this).parent().parent().find('.image');
+    console.log(curElement);
+    var reader = new FileReader();
+
+    reader.onload = function (e) {
+        // get loaded data and render thumbnail.
+        curElement.attr('src', e.target.result);
+    };
+
+    // read the image file as a data URL.
+    reader.readAsDataURL(this.files[0]);
+	});
 
 });

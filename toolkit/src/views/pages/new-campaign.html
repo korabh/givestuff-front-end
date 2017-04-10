@@ -1,0 +1,46 @@
+{{> header }}
+
+<form class="new-campaign">
+  <h1>Create a campaign</h1>
+    <div class="new-campaign-form">
+      <label>
+        <input class="new-campaign-input" type="text" placeholder="Campaign title">
+      </label>
+      <label>
+        <input class="new-campaign-input" type="text" placeholder="Campaign Description">
+      </label>
+      <label>
+        <input class="new-campaign-input" type="text" placeholder="Video Url">
+      </label>
+      <div class="containers">
+        <h6>Images</h6>
+        <div class="imageWrapper">
+          <img class="image" src="">
+        </div>
+        <button class="file-upload">            
+          <input type="file" class="file-input"><i class="fa fa-upload upload-icon" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="hero-items new-campaign-tags">
+        <div class="select-tags">
+          <select class="new-search-box" required multiple="multiple" placeholder="Mode of enquiry">
+            <option value="AL">Food</option>
+            <option value="AL">Clothes</option>
+            <option value="AL">Computers</option>
+            <option value="AL">Books</option>
+            <option value="AL">Money</option>
+            <option value="AL">Wash Machine</option>
+          </select>
+        </div>
+      </div>
+      <div class="tags-description">
+        <span class="icon-close-icon"></span>  
+        <p><span class="icon-square"></span>Food</p>
+        <input class="new-campaign-input" type="text" placeholder="Description">
+      </div>
+      <button class="button publish-btn expanded">Publish for review</button>
+    </div>
+</form>
+
+{{> footer }}
+
