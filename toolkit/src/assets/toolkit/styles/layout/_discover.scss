@@ -1,0 +1,67 @@
+.map {
+	@include grid-column(70%);
+	padding-left: 0px!important;
+	padding-top: 85px;
+	#map-canvas {
+		width: 100%;
+		height: calc(100vh - 85px);
+	}
+}
+.discover-results {
+	height: calc(100vh - 85px);
+	overflow-y: scroll;
+	position: relative;
+	margin-top: 85px;
+	@include grid-column(30%);
+	.hero-items {
+		width: 100%;
+		.select-tags {
+			margin: initial;
+			width: 100%;
+		}
+	}
+	.select2-selection {
+		padding-top: 20px;
+	}
+}
+.results-near {
+	position: absolute;
+	left: 15px;
+	top: 80px;
+	z-index: 111;
+	font-size: 13px;
+	font-weight: 300;
+}
+.margin-bottom--4x {
+	margin-bottom: 60px;
+}
+.filter-button-discover {
+	position: absolute;
+	font-weight: 300;
+	right: 15px;
+	top: 78px;
+	text-align: right;
+	line-height: 22px;
+	font-size: 14px;
+	padding: 0px;
+	color: #000;
+	&:active, &:focus {
+		color: #000;
+	}
+	i {
+		margin-right: 10px;
+	}
+}
+.discover-fieldset-radio {
+	display: none;
+	@include grid-column(50%);
+	input[type="checkbox"]:checked + label::before,
+	input[type="radio"]:checked + label::before {
+	  background-color: #f57186;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #f57186;
+	}
+	margin: 20px 0px;
+}
+.discover-fieldset-radio-show {
+	display: initial;
+}

@@ -144,6 +144,11 @@ $(document).ready(function () {
 		$('.submenu-filters').toggleClass('filters-animation');
 	});
 
+	$('.filter-button-discover').on('click', function(e) {
+		e.preventDefault();
+		$('.discover-fieldset-radio').toggleClass('discover-fieldset-radio-show');
+	});
+
 	$('.tabs-title').on('click', function(){
 		$('li').removeClass('active');	
 		$(this).addClass('active');
@@ -153,4 +158,8 @@ $(document).ready(function () {
 		alert('hello moto');
 	};
 
+
+
 });
+
+				

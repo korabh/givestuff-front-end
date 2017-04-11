@@ -1,0 +1,143 @@
+{{> header}}
+
+<div class="map">
+	<div id="map-canvas"></div>
+</div>
+<div class="discover-results">
+    <div class="hero-items">
+      <div class="select-tags">
+        <select class="search-box" required multiple="multiple" placeholder="Mode of enquiry">
+          <option value="AL">Food</option>
+          <option value="AL">Clothes</option>
+          <option value="AL">Computers</option>
+          <option value="AL">Books</option>
+          <option value="AL">Money</option>
+          <option value="AL">Wash Machine</option>
+        </select>
+      </div>
+    </div>
+    <div class="margin-bottom--4x"></div>
+    <span class="results-near">32 results found</span>
+    <a href="#" class="filter-button-discover"><i class="fa fa-cog" aria-hidden="true"></i>More filters</a>
+    <div class="discover-filters">
+     <fieldset class="discover-fieldset-radio">
+        <legend>Choose Your Color</legend>
+        <input type="radio" name="pokemon" value="Red" id="pokemonRed" required><label for="pokemonRed">Red</label>
+        <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
+        <input type="radio" name="pokemon" value="Yellow" id="pokemonYellow"><label for="pokemonYellow">Yellow</label>
+      </fieldset>
+      <fieldset class="discover-fieldset-radio">
+        <legend>Choose Your Favorite</legend>
+        <input type="radio" name="digimon" value="Yes" id="Yes" required><label for="Yes">Yes</label>
+        <input type="radio" name="digimon" value="No" id="No"><label for="No">No</label>
+        <input type="radio" name="digimon" value="Maybe" id="Maybe"><label for="Maybe">Maybe</label>
+      </fieldset>
+    </div>
+	{{#each card.items }}
+     {{> blocks.discover-card category=this.category location=this.location name=this.name imageurl=this.image }}
+  {{/each}}	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var map;
+function initMap() {
+	var mapOptions = {
+		zoom: 8,
+		center: new google.maps.LatLng(50.98813235180042, -113.96043309936522),
+		styles: [
+    {
+        "featureType": "landscape.man_made",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#f0e9e1"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#cccccc"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "color": "#323a45"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    }
+]						
+	};
+	map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+}
+</script>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR_wQs-yNf6-sYmGSGyXHQoXRKL0ZDE6w&callback=initMap" async defer></script>
