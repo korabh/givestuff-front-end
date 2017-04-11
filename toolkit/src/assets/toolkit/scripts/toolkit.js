@@ -15,6 +15,7 @@ require('../../vendor/isotope/dist/isotope.pkgd.js');
 
 // Select2 script
 require('../../vendor/select2/dist/js/select2.js');
+require('../../vendor/dropzone/dropzone.js');
 
 // For Bower Components
 // Because Bower does not force a module structure, you have use a more specific path.
@@ -66,6 +67,7 @@ $( ".selection" ).append( selectIcon );
 // Use for custom Pattern Libary Modules
 // var fooModule = require('./foo-module');
 // var bar = fooModule.foo();
+
 
 // Finally, you can drop test JavaScript here...
 $(document).ready(function () {
@@ -169,5 +171,5 @@ $(document).ready(function () {
     // read the image file as a data URL.
     reader.readAsDataURL(this.files[0]);
 	});
-
 });
+

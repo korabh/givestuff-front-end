@@ -2,6 +2,15 @@
 	@include scut-padding(rem-calc(85px) n rem-calc(145) n);
 	@include grid-column(35%);
 	@include grid-column-position(center);
+		@include breakpoint(xmedium down) {
+			@include scut-padding(rem-calc(65px) n rem-calc(145) n);
+			@include grid-column(60%);
+			@include grid-column-position(center);
+		}
+		@include breakpoint(xsmall down) {
+			@include grid-column(80%);
+			@include grid-column-position(center);
+		}
 	.new-campaign-form {
 		.new-campaign-tags {
 			margin-top: 30px;
@@ -36,6 +45,9 @@
 	h1 {
 		text-align: center;
 		@include scut-padding(rem-calc(145) n rem-calc(145) n);
+		@include breakpoint(xmedium down) {
+			@include scut-padding(rem-calc(50) n rem-calc(50) n);
+		}
 	}
 }
 
@@ -86,31 +98,28 @@
   	color: #000;
   	margin-top: 30px;
   }
-  .imageWrapper{
-    width:96px;
-    height: 96px;
-    margin-top: 15px;
-    overflow:hidden;
-    position:absolute;
-    img{
-      height:100%;
-      width:initial;
-      max-height:100%;
-      max-width: initial;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
+  .dropzone {
+  	.dz-message {
+  		width: 94px;
+  		height: 94px;
+  		border: 1px dashed #000;
+  		margin: 15px 0 0 0;
+  		position: absolute;
+  	}
+  	i {
+  		position: absolute;
+  		left: 50%;
+  		top: 50%;
+  		transform: translate(-50%, -50%);
+  	}
   }
 }
 
 .file-upload {
-  position: relative;
+	display: none;
+  position: absolute;
   overflow: hidden;
   margin-top: 15px;
-  width:100%;
-  max-width:150px;
   text-align:center;
   color:#fff;
   font-size:1.2em;
@@ -118,7 +127,6 @@
   height: 96px;
   background: #fff;
   border: 1px dashed #000;
-  display:inline;
   .upload-icon {
   	color: #000;
   }
@@ -136,3 +144,4 @@
   filter: alpha(opacity=0);
   height:100%;
 }
+
