@@ -1,12 +1,52 @@
 .map {
 	@include grid-column(70%);
+	position: relative;
 	padding-left: 0px!important;
 	padding-top: 85px;
-	#map-canvas {
-		width: 100%;
-		height: calc(100vh - 85px);
+    &:before {
+	    z-index: 0;
+	    content: '';
+	    position: absolute;
+	    top: 80%;
+	    left: 50%;
+	    margin-left: -20px;
+	    border-left: 20px solid transparent;
+	    border-right: 20px solid transparent;
+	    border-top: 35px solid #fff;
+    }
 	}
+	.pin-image {
+		position: absolute;
+		top: 150px;
+		left: 150px;
+		width: 80px;
+		.pin-image-profile {
+			width: 40px;
+			height: 40px;
+			border-radius: 50px;
+			overflow: hidden;
+	    position: absolute;
+	    top: 33px;
+	    margin-top: auto;
+	    margin-bottom: auto;
+	    left: 50%;
+	    margin-left: auto;
+	    margin-right: auto;
+	    -webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+			img {
+				@include scut-center-transform;
+				max-width: 150%;
+			}
+		}
+	}
+
+#map-canvas {
+	width: 100%;
+	height: calc(100vh - 85px);
 }
+
 .discover-results {
 	height: calc(100vh - 85px);
 	overflow-y: scroll;
