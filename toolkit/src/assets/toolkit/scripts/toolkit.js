@@ -50,8 +50,9 @@ var foundationResponsive = require('../../vendor/foundation-sites/js/foundation.
 //require('smoothstate/jquery.smoothState.min.js');
 // var smoothState = require('./jquery.smoothState.min.js');
 
-// console.log($);
-// $('h1').fadeOut(2000);
+// require('./modules/map');
+// require('./modules/general');
+
 
 // Init select2 input.
 $(".search-box").select2({
