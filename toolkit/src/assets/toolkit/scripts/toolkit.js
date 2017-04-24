@@ -142,6 +142,13 @@ $(document).ready(function () {
 	  $grid.isotope({ filter: filterValue });
 	});
 
+	// Removing tags description 
+
+	$('.tags-description .icon-close-icon').on('click', function(){
+		console.log('hello');
+		$('.tags-description').css('display', 'none');
+	});
+
 	// more filters click showing more..
 
 	$('.filter-button').on('click', function(e) {
