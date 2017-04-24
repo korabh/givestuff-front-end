@@ -20,27 +20,26 @@
         </form>
       </div>
 
-
       <div class="hero-items new-campaign-tags">
         <div class="select-tags">
           <select class="new-search-box" required multiple="multiple" placeholder="Mode of enquiry">
-            <option value="AL">Food</option>
-            <option value="AL">Clothes</option>
-            <option value="AL">Computers</option>
-            <option value="AL">Books</option>
-            <option value="AL">Money</option>
-            <option value="AL">Wash Machine</option>
+            <option value="food">Food</option>
+            <option value="clothes">Clothes</option>
+            <option value="comp">Computers</option>
+            <option value="book">Books</option>
+            <option value="money">Money</option>
           </select>
         </div>
       </div>
-      <div class="tags-description">
-        <span class="icon-close-icon"></span>  
-        <p><span class="icon-square"></span>Food</p>
-        <input class="new-campaign-input" type="text" placeholder="Description">
-      </div>
+      <script id="entry-template" type="text/x-handlebars-template">
+        <div class="tags-description">
+          <span class="icon-close-icon"></span>  
+          <p><span class="icon-square"></span>\{{title}}</p>
+          <input class="new-campaign-input" type="text" placeholder="Description">
+        </div>  
+      </script>
       <button class="button publish-btn expanded">Publish for review</button>
     </div>
 </section>
-
 {{> footer }}
 

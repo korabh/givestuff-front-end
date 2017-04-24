@@ -16,6 +16,7 @@ require('../../vendor/isotope/dist/isotope.pkgd.js');
 // Select2 script
 require('../../vendor/select2/dist/js/select2.js');
 require('../../vendor/dropzone/dropzone.js');
+var Handlebars = require('../../vendor/handlebars/handlebars.js');
 
 // For Bower Components
 // Because Bower does not force a module structure, you have use a more specific path.
@@ -144,8 +145,7 @@ $(document).ready(function () {
 
 	// Removing tags description 
 
-	$('.tags-description .icon-close-icon').on('click', function(){
-		console.log('hello');
+	$(document).on('click', '.tags-description .icon-close-icon', function(){
 		$('.tags-description').css('display', 'none');
 	});
 
@@ -178,5 +178,21 @@ $(document).ready(function () {
     // read the image file as a data URL.
     reader.readAsDataURL(this.files[0]);
 	});
+
+	var source   = $("#entry-template").html();
+	var template = Handlebars.compile(source);
+
+
+	$('.new-search-box').on('change', function(){
+		var value = $(this).val();
+		if( value && value.length ) value = value[0];
+		else return;
+		var label = $(this).find("[value="+ value + "]").text();
+		var context = {title: label};
+		var html    = template(context);
+		$('#entry-template').before($(html));
+		$('.new-search-box').val('').trigger("change");
+	});
+	
 });
 
