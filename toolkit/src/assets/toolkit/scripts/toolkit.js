@@ -15,6 +15,8 @@ require('../../vendor/isotope/dist/isotope.pkgd.js');
 
 // Select2 script
 require('../../vendor/select2/dist/js/select2.js');
+require('../../vendor/dropzone/dropzone.js');
+var Handlebars = require('../../vendor/handlebars/handlebars.js');
 
 // For Bower Components
 // Because Bower does not force a module structure, you have use a more specific path.
@@ -57,12 +59,16 @@ var foundationResponsive = require('../../vendor/foundation-sites/js/foundation.
 $(".search-box").select2({
 	placeholder: "What can you donate?"
 });
+$(".new-search-box").select2({
+	placeholder: "Add tags"
+});
 var selectIcon = $('<span class="icon-search-icon select-icon"></span>');
 $( ".selection" ).append( selectIcon );
 
 // Use for custom Pattern Libary Modules
 // var fooModule = require('./foo-module');
 // var bar = fooModule.foo();
+
 
 // Finally, you can drop test JavaScript here...
 $(document).ready(function () {
@@ -137,6 +143,12 @@ $(document).ready(function () {
 	  $grid.isotope({ filter: filterValue });
 	});
 
+	// Removing tags description 
+
+	$(document).on('click', '.tags-description .icon-close-icon', function(){
+		$('.tags-description').css('display', 'none');
+	});
+
 	// more filters click showing more..
 
 	$('.filter-button').on('click', function(e) {
@@ -152,5 +164,35 @@ $(document).ready(function () {
 	if($('.select2-selection__choice').is(':visible')) {
 		alert('hello moto');
 	};
+// Uploader of image
+	$('.file-input').change(function(){
+    var curElement = $(this).parent().parent().find('.image');
+    console.log(curElement);
+    var reader = new FileReader();
 
+    reader.onload = function (e) {
+        // get loaded data and render thumbnail.
+        curElement.attr('src', e.target.result);
+    };
+
+    // read the image file as a data URL.
+    reader.readAsDataURL(this.files[0]);
+	});
+
+	var source   = $("#entry-template").html();
+	var template = Handlebars.compile(source);
+
+
+	$('.new-search-box').on('change', function(){
+		var value = $(this).val();
+		if( value && value.length ) value = value[0];
+		else return;
+		var label = $(this).find("[value="+ value + "]").text();
+		var context = {title: label};
+		var html    = template(context);
+		$('#entry-template').before($(html));
+		$('.new-search-box').val('').trigger("change");
+	});
+	
 });
+
