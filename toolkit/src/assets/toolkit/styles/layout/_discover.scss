@@ -168,7 +168,9 @@
 		width: 50%;		
 	}
 }
-
+.toggle-button {
+	display: none;
+}
 @include breakpoint(1120px down) {
 	.map {
 		display: none;
@@ -177,6 +179,7 @@
 		@include grid-column(100%);
 	}
 		.toggle-button {
+			display: initial;
 	    position: fixed;
 	    left: 50%;
 	    transform: translate(-50%, 0);
@@ -189,7 +192,6 @@
 	    	background-color: #f55f85;
 	    }
     }
-
 }
 
 .map-show {

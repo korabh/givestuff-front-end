@@ -1,5 +1,10 @@
 var map;
 
+var js_file = document.createElement('script');
+js_file.type = 'text/javascript';
+js_file.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDR_wQs-yNf6-sYmGSGyXHQoXRKL0ZDE6w&callback=initMap';
+document.getElementsByTagName('head')[0].appendChild(js_file);
+
 window.initMap = function() {
 	var mapOptions = {
 		zoom: 8,
