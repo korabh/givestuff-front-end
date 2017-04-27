@@ -28,18 +28,24 @@
 		.hover-pin-image {
 			// display: none;
 			font-size: 15px;
-			bottom: -120px;
-			border: 1px solid #bbb;
-			padding: 5px 10px;
-			border-radius: 5px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+			bottom: -260px;
 			@include scut-center-transform(x);
 	    width: 250px;
-	    height: 100px;
 	    background: white;
+	    img {
+	    	position: relative;
+	    }
 	    h6 {
 	    	a {
 					font-size: 15px;
-	    		color: #f55f85;
+	    		color: #000;
+	    	}
+	    }
+	    p {
+	    	a {
+	    		font-weight: 300;
+	 				color: #000;
 	    	}
 	    }
 	    &:before {
@@ -154,6 +160,9 @@
 // 	}
 // }
 
+.test-tabs {
+	display: none;
+}
 @media screen and (min-width: 760px) and (max-width: 1120px) {
   .discover-results .discover-card {
 		width: 50%;		
@@ -167,9 +176,43 @@
 	.discover-results {
 		@include grid-column(100%);
 	}
+		.toggle-button {
+	    position: fixed;
+	    left: 50%;
+	    transform: translate(-50%, 0);
+	    bottom: 2%;
+      padding: 7px 30px;
+	    background-color: #f55f85;
+	    border-radius: 20px;
+	    outline: none;
+	    &:hover, &:focus {
+	    	background-color: #f55f85;
+	    }
+    }
+
 }
 
+.map-show {
+	@include breakpoint(799 down) {
+		#map-canvas {
+			height: calc(100vh - 65px);
+		}
+	}
+	@include breakpoint(1120px down) {
+		.map {
+			display: initial;
+			width: 100%;
+			padding-top: 65px;
+			padding-right: 0px!important;
+			@include breakpoint(800px up) {
+				padding-top: 85px;
+			}
+		}
+		.discover-results {
+			display: none;
+		}
 
-
+	}
+}
 
 

@@ -1,5 +1,6 @@
 {{> header}}
 
+<section class="section-discover map-show">
 <div class="map">
 	<div id="map-canvas"></div>
       <div class="pin-image">
@@ -8,16 +9,13 @@
           <img src="../assets/toolkit/images/needer/Image001.jpg">
         </div>
         <div class="hover-pin-image"> 
+          <img src="../assets/toolkit/images/needer/Image001.jpg">
             <div class="content-hover-pin-image">
                 <h6><a href="#">Ismet beqiri</a></h6>
-                <p>2015 Rr. Asllan Berisha</p>
+                <p><a href="#">2015 Rr. Asllan Berisha</a></p>
             </div>
         </div>
       </div>
-    <!-- <span class="profile-pin"> -->
-        <!-- <div class="../assets/toolkit/images/pin-image.png">
-        </div> -->
-    <!-- </span> -->
 </div>
 <div class="discover-results">
     <div class="hero-items">
@@ -51,109 +49,10 @@
     </div>
 	{{#each card.items }}
      {{> blocks.discover-card category=this.category location=this.location name=this.name imageurl=this.image }}
-  {{/each}}	
+  {{/each}}
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script>
-var map;
-function initMap() {
-	var mapOptions = {
-		zoom: 8,
-		center: new google.maps.LatLng(50.98813235180042, -113.96043309936522),
-		styles: [
-    {
-        "featureType": "landscape.man_made",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "visibility": "on"
-            },
-            {
-                "color": "#f0e9e1"
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "geometry.fill",
-        "stylers": [
-            {
-                "color": "#cccccc"
-            }
-        ]
-    },
-    {
-        "featureType": "road.highway",
-        "elementType": "geometry.stroke",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-    {
-        "featureType": "administrative",
-        "elementType": "labels",
-        "stylers": [
-            {
-                "visibility": "simplified"
-            },
-            {
-                "color": "#323a45"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "labels.icon",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    }
-]						
-	};
-	map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-}
-</script>
+    <button class="toggle-button button">tabs</button>
+</section>
 
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR_wQs-yNf6-sYmGSGyXHQoXRKL0ZDE6w&callback=initMap" async defer></script>
