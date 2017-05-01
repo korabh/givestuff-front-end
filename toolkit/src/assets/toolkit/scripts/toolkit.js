@@ -52,6 +52,7 @@ var foundationResponsive = require('../../vendor/foundation-sites/js/foundation.
 //require('smoothstate/jquery.smoothState.min.js');
 // var smoothState = require('./jquery.smoothState.min.js');
 
+require('./modules/map.js');
 // console.log($);
 // $('h1').fadeOut(2000);
 
@@ -179,6 +180,11 @@ $(document).ready(function () {
     reader.readAsDataURL(this.files[0]);
 	});
 
+	$('.toggle-button').on('click', function(){
+	  $('.section-discover').toggleClass('map-show');
+	});
+
+
 	var source   = $("#entry-template").html();
 	var template = Handlebars.compile(source);
 
@@ -193,6 +199,7 @@ $(document).ready(function () {
 		$('#entry-template').before($(html));
 		$('.new-search-box').val('').trigger("change");
 	});
+
+
 	
 });
-

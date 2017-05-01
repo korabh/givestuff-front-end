@@ -35,6 +35,8 @@
     "jquery": "~2.2.0"
   },
   "dependencies": {
-    "handlebars": "^4.0.5"
+    "handlebars": "^4.0.5",
+    "select2": "^4.0.3",
+    "normalize-strings": "normalize#^1.1.0"
   }
 }
