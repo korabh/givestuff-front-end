@@ -1,8 +1,785 @@
 {
-	"folders":
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bg-cl",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"a",
+				"anim\tanimation"
+			],
+			[
+				"f",
+				"foundation.accordion.js"
+			],
+			[
+				"ac",
+				"foundation.accordionMenu.js"
+			],
+			[
+				"js",
+				"foundation.responsiveMenu.js"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"e",
+				"uppercase"
+			],
+			[
+				"ca",
+				"calculateAge"
+			],
+			[
+				"ye",
+				"yearsOfBirth"
+			],
+			[
+				"kevin",
+				"kevinAge"
+			],
+			[
+				"smi",
+				"smithHeight"
+			],
+			[
+				"joh",
+				"johnAge"
+			],
+			[
+				"john",
+				"johnHeight"
+			],
+			[
+				"smith",
+				"smithAge"
+			],
+			[
+				"is",
+				"isMarried"
+			],
+			[
+				"_co",
+				"_cookies.less"
+			],
+			[
+				"b",
+				"buisnes.png\tw:241 h:20"
+			],
+			[
+				"t",
+				"tnw.png\tw:126 h:52"
+			]
+		]
+	},
+	"buffers":
 	[
 		{
-			"path": "."
+			"file": "toolkit/src/views/pages/discover.html",
+			"settings":
+			{
+				"buffer_size": 3708,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "discover.html"
+			}
+		},
+		{
+			"file": "toolkit/src/materials/molecules/blocks/discover-card.html",
+			"settings":
+			{
+				"buffer_size": 600,
+				"line_ending": "Unix",
+				"name": "discover-card.html"
+			}
+		},
+		{
+			"file": "toolkit/src/assets/toolkit/styles/layout/_discover.scss",
+			"settings":
+			{
+				"buffer_size": 1980,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "discover.scss"
+			}
+		},
+		{
+			"file": "toolkit/src/assets/toolkit/scripts/toolkit.js",
+			"settings":
+			{
+				"buffer_size": 5980,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
 		}
-	]
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 42.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"packagee",
+				"PackageResourceViewer: Extract Package"
+			]
+		],
+		"width": 446.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/labinotjaha/Desktop/givestuff-front-end",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/images",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/data"
+	],
+	"file_history":
+	[
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/organisms/hero.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_card.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/molecules/blocks/card.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/views/pages/new-campaign.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/utils/_dropzone.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/scripts/toolkit.js",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_new-campaign.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/toolkit.scss",
+		"/Users/labinotjaha/Downloads/dropzone-4.3.0/src/basic.scss",
+		"/Users/labinotjaha/Downloads/dropzone-4.3.0/dist/basic.css",
+		"/Users/labinotjaha/Downloads/dropzone-4.3.0/dist/dropzone.css",
+		"/Users/labinotjaha/Downloads/dropzone-4.3.0/dist/dropzone.js",
+		"/Users/labinotjaha/Downloads/dropzone-4.3.0/src/dropzone.scss",
+		"/Users/labinotjaha/Downloads/dropzone-4.3.0/src/dropzone.coffee",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/vendor/dropzone/dropzone.js",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_hero.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/data/card.yml",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/views/layouts/default.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_progress-circle.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_info-campaign.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_make-a-donation.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/views/pages/view-campaign.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_donee.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/molecules/lists/updates.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/molecules/blocks/make-a-donation.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/molecules/components/comments.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_comments.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_updates.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/layout/_donation.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/node_modules/clean-css/lib/properties/restore.js",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/dist/pages/view-campaign.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/molecules/navigation/top-bar.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/organisms/donation.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/organisms/info-campaign.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/vendor/progress-circle-js/progress-circle-js.js",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/vendor/progress-circle-js",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_donation.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/node_modules/browser-sync-ui/static/components/header.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/views/pages/home.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/dist/pages/home.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_hiw-block.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/views/pages/how-it-works.html",
+		"/Applications/Adobe Illustrator CC 2017/Scripting.localized/Sample Scripts.localized/JavaScript/Working With Text/FlowingAreaText.jsx",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/data/how-it-works.yml",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/data/card.yml",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/blocks/card.html",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/_global.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_hero.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/scripts/toolkit.js",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_top-bar.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/toolkit.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_card.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/navigation/top-bar.html",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/views/pages/home.html",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/organisms/hero.html",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/package.json",
+		"/Users/labinotjaha/Desktop/Projects/give/package.json",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/bower.json",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/node_modules/easy-extender/node_modules/lodash/internal/toObject.js",
+		"/Users/labinotjaha/Desktop/Projects/give/.gitignore",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/.gitignore",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/give.sublime-project",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/views/layouts/default.html",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/vendor/typed.js/index.htm",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/organisms/header.html",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/_settings.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/navigation/offcanvas-form.html",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_offcanvas-form.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_responsive.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/navigation/off-canvas.html",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/layout/_header.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/organisms/footer.html",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/utils/_spacing.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/atoms/buttons/button.html",
+		"/Users/labinotjaha/Desktop/Projects/girlswhocode/src/assets/toolkit/styles/util/_typography.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_animations.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/vendor/foundation-sites/scss/settings/_settings.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/utils/_responsive.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/gulpfile.js",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/navigation/sub-nav.html",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/fonts/icomoon/style.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/fonts/icomoon/variables.scss",
+		"/Users/labinotjaha/Desktop/variables.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/forms/offcanvas-form.html",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/utils/_mixins.scss",
+		"/Applications/XAMPP/xamppfiles/phpmyadmin/js/jqplot/plugins/jqplot.pieRenderer.js",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/layout/_footer.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/vendor/font-awesome/scss/_variables.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/utils/_variables.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/fonts/icomoon/style.css",
+		"/Users/labinotjaha/Desktop/login-icon.svg",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/fonts/Kulturista/stylesheet.css",
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/handlebars-helpers.js",
+		"/Users/labinotjaha/Desktop/2-JS-Basics/script.js",
+		"/Users/labinotjaha/Desktop/Projects/Bopazar/src/assets/toolkit/styles/components/_hero.scss",
+		"/Users/labinotjaha/Desktop/Projects/Bopazar/src/materials/organisms/hero.html",
+		"/Users/labinotjaha/Desktop/Projects/Bopazar/src/assets/toolkit/styles/components/_top-bar.scss",
+		"/Users/labinotjaha/Desktop/Projects/give/give.sublime-workspace",
+		"/Users/labinotjaha/Desktop/Projects/give/bower.json",
+		"/Users/labinotjaha/Desktop/2-JS-Basics/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/inzdr/css/utils/_cookies.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/inzdr/css/utils/_responsive.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/inzdr/index.html",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_responsive.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/terms.html",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_feature.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_animation.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_cookies.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/privacy.html",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/js/main.js",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/cookies.html",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/index.html",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/default.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_colors.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_terms.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_on-appstore.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_footer.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_nav.less",
+		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_main.less",
+		"/Users/labinotjaha/Library/Application Support/Sublime Text 3/Packages/Material Theme/Material-Theme.sublime-theme",
+		"/Users/labinotjaha/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/labinotjaha/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components",
+			"/Users/labinotjaha/Desktop/Projects/give",
+			"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles",
+			"/Applications/XAMPP/xamppfiles/htdocs/inzdr"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fs",
+			"filters-animation",
+			"red",
+			"$color-primary",
+			"pokemon",
+			"pokemonYellow",
+			"pokemonBlue",
+			"pokemonRed",
+			"large-6 columns",
+			"dz-message",
+			"94",
+			"96",
+			"button",
+			"dz-message",
+			"red",
+			"form",
+			"dropzone",
+			"dz-image",
+			"image-size",
+			"dz-image",
+			"vendor",
+			"65px",
+			"ass",
+			"expanded",
+			"input",
+			"10",
+			"h5",
+			"cur",
+			".medium-6.columns",
+			"Input Label",
+			"medium",
+			"down",
+			"chart",
+			"donee-donate",
+			"make-a-donation",
+			"top: 50px",
+			".tabs",
+			"reply-list",
+			"main-level",
+			"reply-list",
+			"main-level",
+			"<span class=\"admin-tag\">Donator</span>",
+			"span",
+			"comment-name",
+			"h6",
+			"Agustin Ortiz",
+			"comments-list",
+			"comment-box",
+			"reply-list",
+			"comments-contai",
+			"http://creaticode.com/blog",
+			"<img src=\"http://lorempixel.com/400/400/business/\" alt=\"\">",
+			"=\"\">\n",
+			"span",
+			"Tab ",
+			"tabs-title",
+			"tabs-title ",
+			"<div class=\"\">\n    <div class=\"tabs-content vertical\" data-tabs-content=\"tabs\">\n      <div class=\"tabs-panel is-active\" id=\"panel1v\">\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n      </div>\n      <div class=\"tabs-panel\" id=\"panel2v\">\n        <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>\n      </div>\n    </div>\n\t<",
+			"columns",
+			"example-vert-tabs",
+			"campaign",
+			"h4",
+			"<img src=\"\" alt=\"\">",
+			"h5",
+			"h3",
+			"line-he",
+			"hiw-content",
+			"block",
+			"medium",
+			"small",
+			"include",
+			"near",
+			"bottom",
+			"h2",
+			"h1",
+			"header",
+			"name",
+			"category",
+			"p:",
+			"h1",
+			"submenu",
+			"testera",
+			"e-f",
+			"select-icon",
+			"Item 1A",
+			"needer-tabs",
+			"hero-items",
+			"typed",
+			"motion",
+			" e-f extra-filter",
+			"e-f",
+			"0px",
+			"ef",
+			"re",
+			".near-me",
+			"Near me",
+			".near-me",
+			"filter\"",
+			"filter",
+			"extra-filter",
+			"span",
+			"abs-title",
+			"extend",
+			"grid-column",
+			"needer-tabs",
+			"2px",
+			"transform: rotate(55deg);",
+			"fff",
+			"workspace",
+			"scut",
+			"typed",
+			"modern",
+			"scut",
+			"jquery",
+			"white",
+			"small",
+			"medium",
+			"xsmall",
+			"down",
+			"bgbg",
+			"hamburger",
+			"title-bar",
+			"766px",
+			"medium",
+			"img",
+			"transition",
+			"scroll",
+			"default-unit"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "toolkit/src/views/pages/discover.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								437,
+								437
+							]
+						],
+						"settings":
+						{
+							"auto_name": "discover.html",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "toolkit/src/materials/molecules/blocks/discover-card.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								600,
+								600
+							]
+						],
+						"settings":
+						{
+							"auto_name": "discover-card.html",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "toolkit/src/assets/toolkit/styles/layout/_discover.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								583,
+								583
+							]
+						],
+						"settings":
+						{
+							"auto_name": "discover.scss",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "toolkit/src/assets/toolkit/scripts/toolkit.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5759,
+								5759
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.500487374652,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "give.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"make-a",
+				"toolkit/src/assets/toolkit/styles/components/_make-a-donation.scss"
+			],
+			[
+				"info-",
+				"toolkit/src/assets/toolkit/styles/components/_info-campaign.scss"
+			],
+			[
+				"view",
+				"toolkit/src/views/pages/view-campaign.html"
+			],
+			[
+				"view-",
+				"toolkit/dist/pages/view-campaign.html"
+			],
+			[
+				"top-bar",
+				"toolkit/src/materials/molecules/navigation/top-bar.html"
+			],
+			[
+				"header",
+				"toolkit/node_modules/browser-sync-ui/static/components/header.html"
+			],
+			[
+				"home",
+				"toolkit/src/views/pages/home.html"
+			],
+			[
+				"hiw",
+				"fbrctr/src/data/how-it-works.yml"
+			],
+			[
+				"card",
+				"fbrctr/src/materials/molecules/blocks/card.html"
+			],
+			[
+				"card.ht",
+				"fbrctr/src/materials/molecules/blocks/card.html"
+			],
+			[
+				"her",
+				"fbrctr/src/materials/organisms/hero.html"
+			],
+			[
+				"card.",
+				"fbrctr/src/data/card.yml"
+			],
+			[
+				"hero.ht",
+				"fbrctr/src/materials/organisms/hero.html"
+			],
+			[
+				"topbar",
+				"fbrctr/src/materials/molecules/navigation/top-bar.html"
+			],
+			[
+				"hero",
+				"fbrctr/src/materials/organisms/hero.html"
+			],
+			[
+				"toolkit",
+				"fbrctr/src/assets/toolkit/scripts/toolkit.js"
+			],
+			[
+				"pacage",
+				"fbrctr/package.json"
+			],
+			[
+				"bower",
+				"fbrctr/bower.json"
+			],
+			[
+				"hero.",
+				"fbrctr/src/assets/toolkit/styles/components/_hero.scss"
+			],
+			[
+				"too",
+				"fbrctr/node_modules/easy-extender/node_modules/lodash/internal/toObject.js"
+			],
+			[
+				"",
+				"~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/Projects/wherenwhen-master/pattern-library/untitled.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
