@@ -1,0 +1,56 @@
+{{> header}}
+
+<section class="section-discover map-show">
+<div class="map">
+	<div id="map-canvas"></div>
+      <div class="pin-image">
+        <img src="../assets/toolkit/images/pin-image.png" alt="">
+        <div class="pin-image-profile">
+          <img src="../assets/toolkit/images/needer/Image001.jpg">
+        </div>
+        <div class="hover-pin-image"> 
+          <img src="../assets/toolkit/images/needer/Image001.jpg">
+            <div class="content-hover-pin-image">
+                <h6><a href="#">Ismet beqiri</a></h6>
+                <p><a href="#">2015 Rr. Asllan Berisha</a></p>
+            </div>
+        </div>
+      </div>
+</div>
+<div class="discover-results">
+    <div class="hero-items">
+      <div class="select-tags">
+        <select class="search-box" required multiple="multiple" placeholder="Mode of enquiry">
+          <option value="AL">Food</option>
+          <option value="AL">Clothes</option>
+          <option value="AL">Computers</option>
+          <option value="AL">Books</option>
+          <option value="AL">Money</option>
+          <option value="AL">Wash Machine</option>
+        </select>
+      </div>
+    </div>
+    <div class="margin-bottom--4x"></div>
+    <span class="results-near">32 results found</span>
+    <a href="#" class="filter-button-discover"><i class="fa fa-cog" aria-hidden="true"></i>More filters</a>
+    <div class="discover-filters">
+     <fieldset class="discover-fieldset-radio">
+        <legend>Choose Your Color</legend>
+        <input type="radio" name="pokemon" value="Red" id="pokemonRed" required><label for="pokemonRed">Red</label>
+        <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
+        <input type="radio" name="pokemon" value="Yellow" id="pokemonYellow"><label for="pokemonYellow">Yellow</label>
+      </fieldset>
+      <fieldset class="discover-fieldset-radio">
+        <legend>Choose Your Favorite</legend>
+        <input type="radio" name="digimon" value="Yes" id="Yes" required><label for="Yes">Yes</label>
+        <input type="radio" name="digimon" value="No" id="No"><label for="No">No</label>
+        <input type="radio" name="digimon" value="Maybe" id="Maybe"><label for="Maybe">Maybe</label>
+      </fieldset>
+    </div>
+	{{#each card.items }}
+     {{> blocks.discover-card category=this.category location=this.location name=this.name imageurl=this.image }}
+  {{/each}}
+</div>
+    <button class="toggle-button button">tabs</button>
+</section>
+

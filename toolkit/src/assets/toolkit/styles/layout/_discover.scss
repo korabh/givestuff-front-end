@@ -1,0 +1,220 @@
+.map {
+	@include grid-column(70%);
+	position: relative;
+	padding-left: 0px!important;
+	padding-top: 85px;
+    &:before {
+	    z-index: 0;
+	    content: '';
+	    position: absolute;
+	    top: 80%;
+	    left: 50%;
+	    margin-left: -20px;
+	    border-left: 20px solid transparent;
+	    border-right: 20px solid transparent;
+	    border-top: 35px solid #fff;
+    }
+	}
+	.pin-image {
+		position: absolute;
+		top: 150px;
+		left: 150px;
+		width: 80px;
+		&:hover {
+			.hover-pin-image {
+				display: initial;
+			}	
+		}
+		.hover-pin-image {
+			// display: none;
+			font-size: 15px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+			bottom: -260px;
+			@include scut-center-transform(x);
+	    width: 250px;
+	    background: white;
+	    img {
+	    	position: relative;
+	    }
+	    h6 {
+	    	a {
+					font-size: 15px;
+	    		color: #000;
+	    	}
+	    }
+	    p {
+	    	a {
+	    		font-weight: 300;
+	 				color: #000;
+	    	}
+	    }
+	    &:before {
+  	    content: '';
+		    position: absolute;
+		    width: 30px;
+		    top: -15px;
+		    height: 30px;
+		    overflow: hidden;
+		    transform: rotate(45deg);
+		    background-color: #fff;
+		    left: 50%;
+		    margin-left: -7%;
+		    border: 1px solid #bbb;
+		    border-right-color: #fff;
+		    border-bottom-color: #fff;
+	    }
+		}
+		.pin-image-profile {
+			width: 40px;
+			height: 40px;
+			border-radius: 50px;
+			overflow: hidden;
+	    position: absolute;
+	    top: 33px;
+	    margin-top: auto;
+	    margin-bottom: auto;
+	    left: 50%;
+	    margin-left: auto;
+	    margin-right: auto;
+	    -webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+			img {
+				@include scut-center-transform;
+				max-width: 150%;
+			}
+		}
+	}
+
+#map-canvas {
+	width: 100%;
+	height: calc(100vh - 85px);
+}
+
+.discover-results {
+	@include breakpoint(799px down) {
+		margin-top: 65px;
+	}
+	height: calc(100vh - 85px);
+	overflow-y: scroll;
+	position: relative;
+	margin-top: 85px;
+	@include grid-column(30%);
+	.hero-items {
+		width: 100%;
+		.select-tags {
+			margin: initial;
+			width: 100%;
+		}
+	}
+	.select2-selection {
+		padding-top: 20px;
+	}
+}
+.results-near {
+	position: absolute;
+	left: 15px;
+	top: 80px;
+	z-index: 111;
+	font-size: 13px;
+	font-weight: 300;
+}
+.margin-bottom--4x {
+	margin-bottom: 60px;
+}
+.filter-button-discover {
+	position: absolute;
+	font-weight: 300;
+	right: 15px;
+	top: 78px;
+	text-align: right;
+	line-height: 22px;
+	font-size: 14px;
+	padding: 0px;
+	color: #000;
+	&:active, &:focus {
+		color: #000;
+	}
+	i {
+		margin-right: 10px;
+	}
+}
+.discover-fieldset-radio {
+	display: none;
+	@include grid-column(50%);
+	input[type="checkbox"]:checked + label::before,
+	input[type="radio"]:checked + label::before {
+	  background-color: #f57186;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #f57186;
+	}
+	margin: 20px 0px;
+}
+.discover-fieldset-radio-show {
+	display: initial;
+}
+
+
+// @include breakpoint(760px up to 1120px) {
+// 	.discover-card {
+// 		width: 50%;		
+// 	}
+// }
+
+.test-tabs {
+	display: none;
+}
+@media screen and (min-width: 760px) and (max-width: 1120px) {
+  .discover-results .discover-card {
+		width: 50%;		
+	}
+}
+.toggle-button {
+	display: none;
+}
+@include breakpoint(1120px down) {
+	.map {
+		display: none;
+	}
+	.discover-results {
+		@include grid-column(100%);
+	}
+		.toggle-button {
+			display: initial;
+	    position: fixed;
+	    left: 50%;
+	    transform: translate(-50%, 0);
+	    bottom: 2%;
+      padding: 7px 30px;
+	    background-color: #f55f85;
+	    border-radius: 20px;
+	    outline: none;
+	    &:hover, &:focus {
+	    	background-color: #f55f85;
+	    }
+    }
+}
+
+.map-show {
+	@include breakpoint(799 down) {
+		#map-canvas {
+			height: calc(100vh - 65px);
+		}
+	}
+	@include breakpoint(1120px down) {
+		.map {
+			display: initial;
+			width: 100%;
+			padding-top: 65px;
+			padding-right: 0px!important;
+			@include breakpoint(800px up) {
+				padding-top: 85px;
+			}
+		}
+		.discover-results {
+			display: none;
+		}
+
+	}
+}
+
+

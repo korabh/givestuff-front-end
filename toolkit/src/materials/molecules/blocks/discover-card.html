@@ -1,0 +1,17 @@
+<div class="discover-card {{ category }} ">
+	<img src="{{image @root.baseurl image}}">
+	<div class="card-inner">
+		<div class="card-section hide-on-hover">
+			<span><span class="icon-location"></span>{{location}}</span>
+			<h4>{{name}}</h4>
+		</div>
+	</div>
+	<div class="card-inner-hover card-section">
+		<span><span class="icon-location"></span><a href="#">{{location}}</a></span>
+		<h4><a href="#">{{name}}</a></h4>
+		<ul class="menu hide">
+			<li><a href="#"><span class="icon-square"></span>clothes</a></li>
+			<li><a href="#"><span class="icon-square"></span>food</a></li>
+		</ul>
+	</div>
+</div>
