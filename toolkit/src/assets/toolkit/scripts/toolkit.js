@@ -15,7 +15,7 @@ require('../../vendor/isotope/dist/isotope.pkgd.js');
 
 // Select2 script
 require('../../vendor/select2/dist/js/select2.js');
-require('../../vendor/dropzone/dropzone.js');
+require('../../vendor/dropzone/dist/min/dropzone.min.js');
 var Handlebars = require('../../vendor/handlebars/handlebars.js');
 
 // For Bower Components

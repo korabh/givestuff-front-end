@@ -37,6 +37,11 @@
   "dependencies": {
     "handlebars": "^4.0.5",
     "select2": "^4.0.3",
-    "normalize-strings": "normalize#^1.1.0"
+    "normalize-strings": "normalize#^1.1.0",
+    "normalize-css": "^6.0.0",
+    "Scut": "scut#^1.4.0",
+    "motion-ui": "^1.2.2",
+    "font-awesome": "^4.7.0",
+    "dropzone": "^4.3.0"
   }
 }
