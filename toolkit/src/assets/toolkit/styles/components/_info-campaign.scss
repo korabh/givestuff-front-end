@@ -4,6 +4,9 @@
 		@include scut-padding(rem-calc(150) n rem-calc(85) n);
 	}
 	@include grid-row;
+	@media screen and (max-width: 560px) {
+		@include scut-padding(rem-calc(70) n rem-calc(35) n);
+	}
 }
  .info-campaign .info-campaign-title {
   @include grid-column(6);
@@ -15,6 +18,14 @@
 		text-align: center;
 		h1 {
 			font-size: 32px;
+		}
+		ul {
+			display: inline-block;
+			li:last-child {
+				&:after {
+					margin: 0px;
+				}
+			}
 		}
   }
  	h1 {
@@ -52,5 +63,16 @@
     position: absolute;
     right: 15px;
     bottom: 0;
+  }
+  @media screen and (max-width: 560px) {
+		width: 100%;
+		.chart {
+			@include scut-center-transform(x);
+			right: initial;
+		}
+		p {
+			@include scut-center-transform(x);
+			right: initial;
+		}
   }
 }
