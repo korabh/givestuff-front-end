@@ -25,45 +25,6 @@
 				display: initial;
 			}	
 		}
-		.hover-pin-image {
-			// display: none;
-			font-size: 15px;
-			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-			bottom: -260px;
-			@include scut-center-transform(x);
-	    width: 250px;
-	    background: white;
-	    img {
-	    	position: relative;
-	    }
-	    h6 {
-	    	a {
-					font-size: 15px;
-	    		color: #000;
-	    	}
-	    }
-	    p {
-	    	a {
-	    		font-weight: 300;
-	 				color: #000;
-	    	}
-	    }
-	    &:before {
-  	    content: '';
-		    position: absolute;
-		    width: 30px;
-		    top: -15px;
-		    height: 30px;
-		    overflow: hidden;
-		    transform: rotate(45deg);
-		    background-color: #fff;
-		    left: 50%;
-		    margin-left: -7%;
-		    border: 1px solid #bbb;
-		    border-right-color: #fff;
-		    border-bottom-color: #fff;
-	    }
-		}
 		.pin-image-profile {
 			width: 40px;
 			height: 40px;
@@ -109,6 +70,9 @@
 	}
 	.select2-selection {
 		padding-top: 20px;
+	}
+	.discover-card {
+		@include scut-margin(n n rem-calc(15) n);
 	}
 }
 .results-near {

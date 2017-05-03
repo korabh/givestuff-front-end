@@ -1,12 +1,22 @@
 .info-campaign {
 	@include scut-padding(rem-calc(210) n rem-calc(140) n);
 	@include breakpoint(medium down) {
-		@include scut-padding(rem-calc(205) n n n);
+		@include scut-padding(rem-calc(150) n rem-calc(85) n);
 	}
 	@include grid-row;
 }
  .info-campaign .info-campaign-title {
   @include grid-column(6);
+  @include breakpoint(medium down) {
+  	@include grid-column(8);
+  }
+  @media screen and (max-width: 560px) {
+		width: 100%;
+		text-align: center;
+		h1 {
+			font-size: 32px;
+		}
+  }
  	h1 {
  		font-size: 44px;
  		margin-bottom: 30px;
@@ -33,6 +43,9 @@
 }
 .info-campaign .info-campaign-founded {
   @include grid-column(6);
+  @include breakpoint(medium down) {
+  	@include grid-column(4);
+  }
 	position: relative;
 	height: 188px;
  p {

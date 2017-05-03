@@ -208,6 +208,10 @@ $(function(){
     reader.readAsDataURL(this.files[0]);
 	});
 
+	$('.filter-button-discover').on('click', function(){
+		$('.discover-fieldset-radio').toggleClass('discover-fieldset-radio-show');
+	});
+  
 	$('.toggle-button').on('click', function(){
 	  $('.section-discover').toggleClass('map-show');
 	});	
