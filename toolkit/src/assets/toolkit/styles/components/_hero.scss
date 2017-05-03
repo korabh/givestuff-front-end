@@ -14,12 +14,12 @@ $hero-color: white;
   .hero-inner {
     @include breakpoint(xsmall down) {
       line-height: 300px;
-      @include grid-column(10);
     }
     @include breakpoint(medium down) {
       @include grid-column(10);
+      @include grid-column-position(center);
     }
-    @include grid-column(6);
+    @include grid-column(8);
     @include grid-column-position(center);
     text-align: center;
     line-height: 500px;
@@ -28,9 +28,14 @@ $hero-color: white;
 
 .hero-items {
   vertical-align: middle;
+  max-width: 750px;
   display: inline-block;
   h1 {
+    @include breakpoint(medium down){
+      font-size: rem-calc(35);
+    }
     font-family: 'kulturistalight';
+    font-size: rem-calc(57);
   }
     .select-icon {
     position: absolute;
@@ -65,6 +70,7 @@ $hero-color: white;
   .select-tags{
     position: relative;
     width: 70%;
+    max-width: 536px;
     margin: 0 auto;
     left: 0;
     right: 0;
@@ -120,7 +126,7 @@ $hero-color: white;
     li {
       cursor: pointer;
       color: #7f7f7f;
-      font-size: 14px;
+      font-size: 16px;
       &:after {
         margin-right: 30px;
         content: '';
@@ -232,9 +238,3 @@ $hero-color: white;
   width: 100%;
   opacity: 1;
 }
-
-
-
-
-
-

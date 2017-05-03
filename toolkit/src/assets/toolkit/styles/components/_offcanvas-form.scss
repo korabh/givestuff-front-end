@@ -16,6 +16,7 @@
 	}
 	&.open {
 		right: 0;
+		z-index: 6000;
 	}
 }
 .offcanvas-section-tabs {
@@ -40,7 +41,7 @@
 		}
 		&.is-active {
 			a {	
-				color: $white;
+				color: $white!important;
 				background: none;
 			}
 		}

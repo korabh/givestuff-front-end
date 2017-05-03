@@ -3,6 +3,9 @@
 }
 .donee .donee-data {
 	@include grid-column(8);
+	@include breakpoint(1190px down) {
+		@include grid-column(12);
+	}
 	.tabs {
 		margin-bottom: 35px;
 		border: none;
@@ -43,6 +46,10 @@
 
 .donee .donee-donate {
 	@include grid-column(4);
+	@include breakpoint(1190px down) {
+		@include grid-column(8);
+		
+	}
 	position: relative;
   top: 51px;
 
