@@ -9,17 +9,19 @@
   display: block;
   clear: both;
 }
+.isotope {
 .grid-sizer,
-.card {
-  @include grid-col(12);
-  @include breakpoint( medium ) {
-    @include grid-col(6);
-  }
-  @include breakpoint( large ) {
-    @include grid-col(4);
-  }
-  padding: 0!important;
-} 
+  .card {
+    @include grid-col(12);
+    @include breakpoint( medium ) {
+      @include grid-col(6);
+    }
+    @include breakpoint( large ) {
+      @include grid-col(4);
+    }
+    padding: 0!important;
+  } 
+}
 .card {
   &:hover {
     .card-inner-hover {
@@ -52,6 +54,22 @@
   span {
     margin-right: 10px;
   }
+  h4 {
+    font-size: 24px;
+    font-weight: 300;
+
+    @include breakpoint(small up) {
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+    }
+    @include breakpoint(large up) {
+      -webkit-line-clamp: 3;
+    }
+    @include breakpoint(small up) {
+      -webkit-line-clamp: 4;
+    }
+  }
   h4, span {
     color: white;
     text-shadow: 0.3px 0.3px white;
@@ -63,6 +81,16 @@
     height: 100%;
     width: 100%;
     bottom: 0;
+    h4 {
+      font-size: 24px;
+      font-weight: 300;
+       @include breakpoint(small up) {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+      }
+    }
     h4 a, span a { color: white; }
     @include gradient-background();
     .menu.hide {
@@ -131,6 +159,8 @@
   }
 }
 .card-inner {
+  font-size: 14px;
+  font-weight: 300;
   background-color: rgba(0 , 0 , 0 , 0.3);
   position: absolute;
   bottom: 0;
@@ -156,6 +186,10 @@
     height: 100%;
     width: 100%;
     bottom: 0;
+    span a {
+      font-size: 14px;
+      font-weight: 300;
+    }
     h4 a, span a { color: white; }
     @include gradient-background();
     .menu.hide {
@@ -164,6 +198,7 @@
       bottom: 35px;
       li {
         position: relative;
+        font-size: 12px;
         margin-right: 25px;
         text-transform: capitalize;
         a {

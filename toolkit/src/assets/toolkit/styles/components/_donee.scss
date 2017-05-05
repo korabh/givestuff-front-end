@@ -3,6 +3,9 @@
 }
 .donee .donee-data {
 	@include grid-column(8);
+	@include breakpoint(1190px down) {
+		@include grid-column(12);
+	}
 	.tabs {
 		margin-bottom: 35px;
 		border: none;
@@ -40,13 +43,37 @@
 		font-weight: 300;
 	}
 }
-
+.tabs-content .tabs-panel .donee-donate-mobile {
+	width: 100%;
+	padding: 0px;
+	button {
+		@media only screen and (max-width: 1191px) {
+			display: initial;
+			margin-top: 16px;
+		}
+		@media only screen and (min-width: 1191px) {
+			display: none;
+			margin-top: 16px;
+		}
+	}
+}
 .donee .donee-donate {
 	@include grid-column(4);
+	@include breakpoint(1190px down) {
+		@include grid-column(8);
+		@include grid-column-position(center);
+		top: 0;
+	}
+	@media only screen and (max-width: 560px) {
+		@include grid-column(12);
+	}
 	position: relative;
   top: 51px;
 
 	.donation-button {
+		@media only screen and (max-width: 1190px) {
+			display: none;
+		}
 		background-color: #f56485;
 		@include scut-padding(rem-calc(20) n)
 	}
@@ -101,7 +128,11 @@
 		}
 	}
 }
-
+.responsive-embed {
+	@media only screen and (max-width: 560px) {
+		iframe {height: 250px;}
+	}
+}
 
 
 
@@ -269,6 +300,9 @@
 
 
 .timeline-updates {
+	@media only screen and (max-width: 560px) {
+		display: none;
+	}
 	h2 {
 		font-size: 18px;
     font-family: 'kulturistalight';

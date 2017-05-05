@@ -3,19 +3,12 @@
 <section class="section-discover map-show">
 <div class="map">
 	<div id="map-canvas"></div>
-      <div class="pin-image">
-        <img src="../assets/toolkit/images/pin-image.png" alt="">
-        <div class="pin-image-profile">
-          <img src="../assets/toolkit/images/needer/Image001.jpg">
-        </div>
-        <div class="hover-pin-image"> 
-          <img src="../assets/toolkit/images/needer/Image001.jpg">
-            <div class="content-hover-pin-image">
-                <h6><a href="#">Ismet beqiri</a></h6>
-                <p><a href="#">2015 Rr. Asllan Berisha</a></p>
-            </div>
-        </div>
+    <div class="pin-image">
+      <img src="../assets/toolkit/images/pin-image.png" alt="">
+      <div class="pin-image-profile">
+        <img src="../assets/toolkit/images/needer/Image001.jpg">
       </div>
+    </div>
 </div>
 <div class="discover-results">
     <div class="hero-items">
@@ -47,9 +40,13 @@
         <input type="radio" name="digimon" value="Maybe" id="Maybe"><label for="Maybe">Maybe</label>
       </fieldset>
     </div>
-	{{#each card.items }}
-     {{> blocks.discover-card category=this.category location=this.location name=this.name imageurl=this.image }}
-  {{/each}}
+    <div class="discover-isotope">
+        <div class="grid-sizer"></div>
+        <div class="gutter-sizer"></div>
+      	{{#each card.items }}
+           {{> blocks.discover-card category=this.category location=this.location name=this.name imageurl=this.image }}
+        {{/each}}
+    </div>
 </div>
     <button class="toggle-button button">tabs</button>
 </section>

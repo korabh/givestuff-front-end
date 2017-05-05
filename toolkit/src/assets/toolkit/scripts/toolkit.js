@@ -15,7 +15,7 @@ require('../../vendor/isotope/dist/isotope.pkgd.js');
 
 // Select2 script
 require('../../vendor/select2/dist/js/select2.js');
-require('../../vendor/dropzone/dist/min/dropzone.min.js');
+require('../../vendor/dropzone/dropzone.js');
 var Handlebars = require('../../vendor/handlebars/handlebars.js');
 
 // For Bower Components
@@ -52,7 +52,14 @@ var foundationResponsive = require('../../vendor/foundation-sites/js/foundation.
 //require('smoothstate/jquery.smoothState.min.js');
 // var smoothState = require('./jquery.smoothState.min.js');
 
-require('./modules/map.js');
+$(function(){
+  if($('section').is('.map-show')){ 
+		require('./modules/map.js');
+  }
+  if($('section').is('.info-campaign')){
+  	require('../../vendor/progress-circle-js/progress-circle-js.js');
+  }
+});
 // console.log($);
 // $('h1').fadeOut(2000);
 
@@ -75,6 +82,27 @@ $( ".selection" ).append( selectIcon );
 $(document).ready(function () {
   //console.log('Script kiddies of the world unite.')
   $(document).foundation();
+
+// mustachejs
+
+
+$(function(){
+  if($('section').is('.new-campaign')){
+  	var source   = $("#entry-template").html();
+		var template = Handlebars.compile(source);
+
+		$('.new-search-box').on('change', function(){
+			var value = $(this).val();
+			if( value && value.length ) value = value[0];
+			else return;
+			var label = $(this).find("[value="+ value + "]").text();
+			var context = {title: label};
+			var html    = template(context);
+			$('#entry-template').before($(html));
+			$('.new-search-box').val('').trigger("change");
+		});
+  }
+});
 
 // jQuery of closing tab when touching ESC
 
@@ -138,6 +166,14 @@ $(document).ready(function () {
 	    columnWidth: '.grid-sizer'
 	  }
 	});
+
+	var $grid = $('.discover-isotope').isotope({
+	  itemSelector: '.discover-card',
+	  masonry: {
+			columnWidth: '.grid-sizer',
+			gutter: '.gutter-sizer'
+	  }
+	});
   
   $('.filter-button-group li').on( 'click', function() {
 	  var filterValue = $(this).attr('data-filter');
@@ -180,27 +216,14 @@ $(document).ready(function () {
     reader.readAsDataURL(this.files[0]);
 	});
 
+	$('.filter-button-discover').on('click', function(){
+		$('.discover-fieldset-radio').toggleClass('discover-fieldset-radio-show');
+	});
+
 	$('.toggle-button').on('click', function(){
 	  $('.section-discover').toggleClass('map-show');
-	});
+	  google.maps.event.trigger(window.map, 'resize');
+		$('.discover-isotope').data('isotope').resize();
+	});	
 
-
-	var source   = $("#entry-template").html();
-	var template = Handlebars.compile(source);
-
-
-	$('.new-search-box').on('change', function(){
-		var value = $(this).val();
-		if( value && value.length ) value = value[0];
-		else return;
-		var label = $(this).find("[value="+ value + "]").text();
-		var context = {title: label};
-		var html    = template(context);
-		$('#entry-template').before($(html));
-		$('.new-search-box').val('').trigger("change");
-	});
-
-
-	
 });
-
