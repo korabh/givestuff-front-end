@@ -42,6 +42,7 @@
     "Scut": "scut#^1.4.0",
     "motion-ui": "^1.2.2",
     "font-awesome": "^4.7.0",
-    "dropzone": "^4.3.0"
+    "dropzone": "^4.3.0",
+    "jquery-circle-progress": "^1.2.2"
   }
 }

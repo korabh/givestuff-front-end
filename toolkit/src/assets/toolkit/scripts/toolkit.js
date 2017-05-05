@@ -1,27 +1,18 @@
 /**
  * Toolkit JavaScript
  */
-
 'use strict';
 
 // Add ES2015 polyfills
 require('babel-polyfill');
-
-// For Node Modules
-// Because no path was specified, Module will be included from "node_modules"
-//var $ = require('jquery');
-// require('../../vendor/imagesloaded/imagesloaded.pkgd.js');
 require('../../vendor/isotope/dist/isotope.pkgd.js');
 
-// Select2 script
-require('../../vendor/select2/dist/js/select2.js');
-require('../../vendor/dropzone/dropzone.js');
-var Handlebars = require('../../vendor/handlebars/handlebars.js');
-
-// For Bower Components
-// Because Bower does not force a module structure, you have use a more specific path.
+// Select2 Script
+require('../../vendor/select2/dist/js/select2.min.js');
+require('../../vendor/dropzone/dist/min/dropzone.min.js');
 
 // Loading foundation from node
+var Handlebars = require('../../vendor/handlebars/handlebars.js');
 var foundation = require('../../vendor/foundation-sites/js/foundation.core.js');
 var foundationTimeAndImage = require('../../vendor/foundation-sites/js/foundation.util.timerAndImageLoader.js');
 var foundationMotion = require('../../vendor/foundation-sites/js/foundation.util.motion.js');
@@ -49,19 +40,14 @@ var foundationDrilldowns = require('../../vendor/foundation-sites/js/foundation.
 var foundationToggle = require('../../vendor/foundation-sites/js/foundation.responsiveToggle.js');
 var foundationResponsive = require('../../vendor/foundation-sites/js/foundation.responsiveMenu.js');
 
-//require('smoothstate/jquery.smoothState.min.js');
-// var smoothState = require('./jquery.smoothState.min.js');
-
 $(function(){
   if($('section').is('.map-show')){ 
 		require('./modules/map.js');
   }
   if($('section').is('.info-campaign')){
-  	require('../../vendor/progress-circle-js/progress-circle-js.js');
+  	require('../../vendor/jquery-circle-progress/dist/circle-progress.js');
   }
 });
-// console.log($);
-// $('h1').fadeOut(2000);
 
 // Init select2 input.
 $(".search-box").select2({
