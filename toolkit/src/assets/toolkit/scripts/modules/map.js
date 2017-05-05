@@ -1,4 +1,4 @@
-var map;
+window.map ;
 
 var js_file = document.createElement('script');
 js_file.type = 'text/javascript';
@@ -123,5 +123,5 @@ window.initMap = function() {
     }
 ]                       		
 	};
-	map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+	window.map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 }

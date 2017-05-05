@@ -149,9 +149,6 @@
 	display: none;
 }
 @include breakpoint(1120px down) {
-	.map {
-		display: none;
-	}
 	.discover-results {
 		@include grid-column(100%);
 	}
@@ -169,6 +166,21 @@
 	    	background-color: #f55f85;
 	    }
     }
+    
+	.section-discover:not(.map-show) {
+		.map {
+			position: absolute;
+			left: -3000px;
+			width: 100vw;
+		}
+	}
+	.section-discover.map-show{
+		.discover-results {
+			position: absolute;
+			left: -3000px;
+			width: 100vw;
+		}
+	}
 }
 
 .map-show {
@@ -187,9 +199,7 @@
 				padding-top: 85px;
 			}
 		}
-		.discover-results {
-			display: none;
-		}
+		.discover-results {		}
 	}
 }
 

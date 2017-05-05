@@ -219,8 +219,11 @@ $(function(){
 	$('.filter-button-discover').on('click', function(){
 		$('.discover-fieldset-radio').toggleClass('discover-fieldset-radio-show');
 	});
-  
+
 	$('.toggle-button').on('click', function(){
 	  $('.section-discover').toggleClass('map-show');
+	  google.maps.event.trigger(window.map, 'resize');
+		$('.discover-isotope').data('isotope').resize();
 	});	
+
 });
