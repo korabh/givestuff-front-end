@@ -166,6 +166,14 @@ $(function(){
 	    columnWidth: '.grid-sizer'
 	  }
 	});
+
+	var $grid = $('.discover-isotope').isotope({
+	  itemSelector: '.discover-card',
+	  masonry: {
+			columnWidth: '.grid-sizer',
+			gutter: '.gutter-sizer'
+	  }
+	});
   
   $('.filter-button-group li').on( 'click', function() {
 	  var filterValue = $(this).attr('data-filter');
@@ -216,4 +224,3 @@ $(function(){
 	  $('.section-discover').toggleClass('map-show');
 	});	
 });
-

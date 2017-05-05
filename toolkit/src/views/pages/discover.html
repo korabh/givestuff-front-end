@@ -40,9 +40,13 @@
         <input type="radio" name="digimon" value="Maybe" id="Maybe"><label for="Maybe">Maybe</label>
       </fieldset>
     </div>
-	{{#each card.items }}
-     {{> blocks.discover-card category=this.category location=this.location name=this.name imageurl=this.image }}
-  {{/each}}
+    <div class="discover-isotope">
+        <div class="grid-sizer"></div>
+        <div class="gutter-sizer"></div>
+      	{{#each card.items }}
+           {{> blocks.discover-card category=this.category location=this.location name=this.name imageurl=this.image }}
+        {{/each}}
+    </div>
 </div>
     <button class="toggle-button button">tabs</button>
 </section>

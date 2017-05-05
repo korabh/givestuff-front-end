@@ -62,6 +62,15 @@
 	margin-top: 85px;
 	@include grid-column(30%);
 	.hero-items {
+		@media only screen and (max-width: 1120px){
+			max-width: initial;
+			.select-tags {
+				margin: 0 auto!important;
+				.select2-search__field {
+					width: 100%!important;
+				}
+			}
+		}
 		width: 100%;
 		.select-tags {
 			margin: initial;
@@ -103,6 +112,9 @@
 		margin-right: 10px;
 	}
 }
+.discover-filters {
+	overflow: hidden;
+}
 .discover-fieldset-radio {
 	display: none;
 	@include grid-column(50%);
@@ -129,7 +141,8 @@
 }
 @media screen and (min-width: 760px) and (max-width: 1120px) {
   .discover-results .discover-card {
-		width: 50%;		
+		width: 49%;		
+		margin-bottom: 2%;
 	}
 }
 .toggle-button {
@@ -177,8 +190,15 @@
 		.discover-results {
 			display: none;
 		}
-
 	}
 }
 
+.discover-isotope {
+	.grid-sizer {
+		width: 49%;
+	}
+	.gutter-sizer {
+	  width: 2%;
+	}
+}
 
