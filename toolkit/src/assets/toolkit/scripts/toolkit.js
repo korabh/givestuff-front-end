@@ -62,15 +62,20 @@ $( ".selection" ).append( selectIcon );
 // Use for custom Pattern Libary Modules
 // var fooModule = require('./foo-module');
 // var bar = fooModule.foo();
-
+ 
+// document.documentElement.className = 'no-fouc';
 
 // Finally, you can drop test JavaScript here...
 $(document).ready(function () {
   //console.log('Script kiddies of the world unite.')
   $(document).foundation();
 
-// mustachejs
+  // no fouc
 
+  $('.no-fouc').removeClass('no-fouc');
+
+
+// mustachejs
 
 $(function(){
   if($('section').is('.new-campaign')){
