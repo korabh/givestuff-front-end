@@ -4,7 +4,7 @@
 		display: none;
 	}
 	@include grid-column;
-	transition: all 0.5s;
+	@extend .transition-ease;
 	background-color: white;
 	position: fixed;
 	height: 85px;
@@ -18,7 +18,7 @@
   }
   background-color: black;
   z-index: 10;
-  transition: background-color 0.5s linear;
+  @extend .transition-linear;
   position: fixed;
   height: rem-calc(65);
   width: 100%;
@@ -61,10 +61,10 @@
 .top-bar .top-bar-left {
 	position: absolute;
 	left: 2.5%;
-	transition: all 0.2s;
+	@extend .transition-ease;
 }
 .top-bar-left a img {
-	transition: all 0.2s;
+	@extend .transition-ease;
 	width: rem-calc(107);
 }
 .top-bar .top-bar-center {
@@ -83,7 +83,7 @@
 } 
 .top-bar-center ul {
 	background-color: transparent;
-	transition: all 0.2s;
+	@extend .transition-ease;
 	line-height: 85px;
 	li {
 		a {
@@ -97,7 +97,7 @@
 .top-bar-right {
 	text-align: right;
 	height: 85px;
-	transition: all 0.2s;
+	@extend .transition-ease;
 	h4 {
 		font-size: rem-calc(13);
 		color: $black;

@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"cur",
+				"cursor"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"bacg",
+				"background-attachment"
+			],
+			[
+				"i",
+				"images/"
+			],
+			[
+				"mod",
+				"modules/"
+			],
+			[
+				"toggle",
+				"toggleClass"
+			],
+			[
+				"toggl",
+				"toggleClass"
+			],
+			[
+				"togg",
+				"responsiveToggle"
+			],
+			[
 				"bg-cl",
 				"background-color"
 			],
@@ -91,44 +123,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "toolkit/src/views/pages/discover.html",
-			"settings":
-			{
-				"buffer_size": 3708,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "discover.html"
-			}
-		},
-		{
-			"file": "toolkit/src/materials/molecules/blocks/discover-card.html",
-			"settings":
-			{
-				"buffer_size": 600,
-				"line_ending": "Unix",
-				"name": "discover-card.html"
-			}
-		},
-		{
-			"file": "toolkit/src/assets/toolkit/styles/layout/_discover.scss",
-			"settings":
-			{
-				"buffer_size": 1980,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "discover.scss"
-			}
-		},
-		{
-			"file": "toolkit/src/assets/toolkit/scripts/toolkit.js",
-			"settings":
-			{
-				"buffer_size": 5980,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -137,7 +131,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 42.0,
+		"height": 354.0,
 		"last_filter": "",
 		"selected_items":
 		[
@@ -154,7 +148,7 @@
 				"PackageResourceViewer: Extract Package"
 			]
 		],
-		"width": 446.0
+		"width": 422.0
 	},
 	"console":
 	{
@@ -172,26 +166,103 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/labinotjaha/Desktop/givestuff-front-end",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/images",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/data"
-	],
 	"file_history":
 	[
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/organisms/hero.html",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_card.scss",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/molecules/blocks/card.html",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/views/pages/new-campaign.html",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/utils/_dropzone.scss",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/scripts/toolkit.js",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_new-campaign.scss",
+		"/Users/labinotjaha/Desktop/synergy-frontend/src/assets/toolkit/styles/components/_button.scss",
+		"/Users/labinotjaha/Desktop/synergy-frontend/src/assets/toolkit/styles/_settings.scss",
+		"/Users/labinotjaha/Desktop/synergy-frontend/src/assets/toolkit/styles/utils/_variables.scss",
+		"/Users/labinotjaha/Desktop/synergy-frontend/src/views/pages/home.html",
+		"/Users/labinotjaha/Desktop/synergy-frontend/src/assets/toolkit/styles/utils/_mixins.scss",
+		"/Users/labinotjaha/Desktop/synergy-frontend/src/assets/vendor/foundation-sites/_vendor/normalize-scss/sass/normalize/_vertical-rhythm.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/components/_hero.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/materials/organisms/hero.html",
+		"/Users/labinotjaha/Desktop/respo",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/components/_about-us.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/views/pages/about-us.html",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/components/_components.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/views/pages/media.html",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/components/_media.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/layout/_our-locations.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/materials/molecules/navigation/top-bar.html",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/components/_contact-us.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/components/about-us.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/views/pages/contact-us.html",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/toolkit.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/materials/molecules/navigation/secondary-topbar.html",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/layout/_footer.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/components/_top-bar.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/scripts/toolkit.js",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/materials/organisms/footer.html",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/views/pages/home.html",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/materials/organisms/header.html",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/layout/_header.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/icomoon/style.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/icomoon/variables.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/_settings.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/fonts/icomoon/variables.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/materials/organisms/our-locations.html",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/_global.scss",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/toolkit.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/scripts/toolkit.js",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/scripts/modules/general.js",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/layout/_layout.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/vendor/compass/css3/_images.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/vendor/select2/tests/vendor/qunit-1.23.1.js",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/materials/molecules/components/button-group.html",
+		"/Users/labinotjaha/Desktop/ramadan-tend/handlebars-helpers.js",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/fonts/icomoon/variables.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/dist/assets/toolkit/fonts/icomoon/variables.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/gulpfile.js",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/utils/_variables.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/fonts/icomoon/style.css",
+		"/Users/labinotjaha/Desktop/Projects/girlswhocode/src/assets/toolkit/styles/_settings.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/components/_button.scss",
+		"/Users/labinotjaha/Desktop/ramadan-tend/bower.json",
+		"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/vendor/foundation-sites/_vendor/normalize-scss/sass/normalize/_vertical-rhythm.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/views/pages/how-it-works.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_top-bar.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_card.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/layout/_donation.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_offcanvas-form.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/_global.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_hero.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/layout/_header.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_donee.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/organisms/hero.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/molecules/navigation/top-bar.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_hiw-block.scss",
+		"/Users/labinotjaha/Desktop/the_odin_project/Lbntjaha.github.io/css/main.css",
+		"/Users/labinotjaha/Desktop/the_odin_project/rolling-dice-game/index.html",
+		"/Users/labinotjaha/Desktop/the_odin_project/Lbntjaha.github.io/index.html",
+		"/Users/labinotjaha/Desktop/the_odin_project/Lbntjaha.github.io/css/utils/_cookies.less",
+		"/Users/labinotjaha/Desktop/the_odin_project/Lbntjaha.github.io/css/utils/_main.less",
+		"/Users/labinotjaha/Desktop/the_odin_project/Lbntjaha.github.io/css/utils/_on-appstore.less",
+		"/Users/labinotjaha/Desktop/the_odin_project/Lbntjaha.github.io/css/utils/_responsive.less",
+		"/Users/labinotjaha/Desktop/the_odin_project/google-page.github.io/index.html",
+		"/Users/labinotjaha/Desktop/mozaix.com-site/source/javascripts/all.js",
+		"/Users/labinotjaha/Desktop/mozaix.com-site/source/layouts/header-only.erb",
+		"/Users/labinotjaha/Desktop/mozaix.com-site/source/layouts/layout.erb",
+		"/Users/labinotjaha/Desktop/mozaix.com-site/source/stylesheets/global-fix.css",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/node_modules/bower/lib/node_modules/lodash/core.min.js",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_info-campaign.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/layout/_discover.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/scripts/modules/map.js",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/views/pages/new-campaign.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/views/pages/discover.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/views/pages/view-campaign.html",
+		"/Users/labinotjaha/Desktop/mozaix.com-site/html/src/assets/toolkit/scripts/modules/general.js",
+		"/Users/labinotjaha/Desktop/mozaix.com-site/html/src/views/pages/synergy-work-page.html",
+		"/Users/labinotjaha/Desktop/mozaix.com-site/html/src/views/pages/easy-learning-work-page.html",
+		"/Users/labinotjaha/Desktop/mozaix.com-site/html/src/views/pages/mapstylr-work-page.html",
+		"/Users/labinotjaha/Desktop/mozaix.com-site/html/src/assets/toolkit/styles/organisms/_synergy-work-page.scss",
+		"/Users/labinotjaha/Desktop/mozaix.com-site/html/src/assets/toolkit/styles/organisms/_easy-learning-work-page.scss",
+		"/Users/labinotjaha/Desktop/mozaix.com-site/html/src/materials/organisms/navigation.html",
+		"/Users/labinotjaha/Desktop/mozaix.com-site/html/src/assets/toolkit/styles/organisms/_navigation.scss",
+		"/Users/labinotjaha/git_test/hello_world.txt",
+		"/Applications/Adobe Illustrator CC 2017/Scripting.localized/Sample Scripts.localized/JavaScript/Working With Text/FlowingAreaText.jsx",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/molecules/blocks/card.html",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/utils/_dropzone.scss",
+		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_new-campaign.scss",
 		"/Users/labinotjaha/Downloads/dropzone-4.3.0/src/basic.scss",
 		"/Users/labinotjaha/Downloads/dropzone-4.3.0/dist/basic.css",
 		"/Users/labinotjaha/Downloads/dropzone-4.3.0/dist/dropzone.css",
@@ -199,23 +270,17 @@
 		"/Users/labinotjaha/Downloads/dropzone-4.3.0/src/dropzone.scss",
 		"/Users/labinotjaha/Downloads/dropzone-4.3.0/src/dropzone.coffee",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/vendor/dropzone/dropzone.js",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_hero.scss",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/data/card.yml",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/views/layouts/default.html",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_progress-circle.scss",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_info-campaign.scss",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_make-a-donation.scss",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/views/pages/view-campaign.html",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_donee.scss",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/molecules/lists/updates.html",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/molecules/blocks/make-a-donation.html",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/molecules/components/comments.html",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_comments.scss",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_updates.scss",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/layout/_donation.scss",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/node_modules/clean-css/lib/properties/restore.js",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/dist/pages/view-campaign.html",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/molecules/navigation/top-bar.html",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/organisms/donation.html",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials/organisms/info-campaign.html",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/vendor/progress-circle-js/progress-circle-js.js",
@@ -224,88 +289,13 @@
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/node_modules/browser-sync-ui/static/components/header.html",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/views/pages/home.html",
 		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/dist/pages/home.html",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components/_hiw-block.scss",
-		"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/views/pages/how-it-works.html",
-		"/Applications/Adobe Illustrator CC 2017/Scripting.localized/Sample Scripts.localized/JavaScript/Working With Text/FlowingAreaText.jsx",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/data/how-it-works.yml",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/data/card.yml",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/blocks/card.html",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/_global.scss",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_hero.scss",
 		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/scripts/toolkit.js",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_top-bar.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/toolkit.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_card.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/navigation/top-bar.html",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/views/pages/home.html",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/organisms/hero.html",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/package.json",
-		"/Users/labinotjaha/Desktop/Projects/give/package.json",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/bower.json",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/node_modules/easy-extender/node_modules/lodash/internal/toObject.js",
-		"/Users/labinotjaha/Desktop/Projects/give/.gitignore",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/.gitignore",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/give.sublime-project",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/views/layouts/default.html",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/vendor/typed.js/index.htm",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/organisms/header.html",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/_settings.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/navigation/offcanvas-form.html",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_offcanvas-form.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_responsive.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/navigation/off-canvas.html",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/layout/_header.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/organisms/footer.html",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/utils/_spacing.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/atoms/buttons/button.html",
-		"/Users/labinotjaha/Desktop/Projects/girlswhocode/src/assets/toolkit/styles/util/_typography.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_animations.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/vendor/foundation-sites/scss/settings/_settings.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/utils/_responsive.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/gulpfile.js",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/navigation/sub-nav.html",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/fonts/icomoon/style.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/fonts/icomoon/variables.scss",
-		"/Users/labinotjaha/Desktop/variables.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/materials/molecules/forms/offcanvas-form.html",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/utils/_mixins.scss",
-		"/Applications/XAMPP/xamppfiles/phpmyadmin/js/jqplot/plugins/jqplot.pieRenderer.js",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/layout/_footer.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/vendor/font-awesome/scss/_variables.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/utils/_variables.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/fonts/icomoon/style.css",
-		"/Users/labinotjaha/Desktop/login-icon.svg",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/fonts/Kulturista/stylesheet.css",
-		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/handlebars-helpers.js",
-		"/Users/labinotjaha/Desktop/2-JS-Basics/script.js",
-		"/Users/labinotjaha/Desktop/Projects/Bopazar/src/assets/toolkit/styles/components/_hero.scss",
-		"/Users/labinotjaha/Desktop/Projects/Bopazar/src/materials/organisms/hero.html",
-		"/Users/labinotjaha/Desktop/Projects/Bopazar/src/assets/toolkit/styles/components/_top-bar.scss",
-		"/Users/labinotjaha/Desktop/Projects/give/give.sublime-workspace",
-		"/Users/labinotjaha/Desktop/Projects/give/bower.json",
-		"/Users/labinotjaha/Desktop/2-JS-Basics/index.html",
-		"/Applications/XAMPP/xamppfiles/htdocs/inzdr/css/utils/_cookies.less",
-		"/Applications/XAMPP/xamppfiles/htdocs/inzdr/css/utils/_responsive.less",
-		"/Applications/XAMPP/xamppfiles/htdocs/inzdr/index.html",
-		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_responsive.less",
-		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/terms.html",
-		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_feature.less",
-		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_animation.less",
-		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_cookies.less",
-		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/privacy.html",
-		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/js/main.js",
-		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/cookies.html",
-		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/index.html",
-		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/default.less",
-		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_colors.less",
-		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_terms.less",
-		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_on-appstore.less",
-		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_footer.less",
-		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_nav.less",
-		"/Users/labinotjaha/Desktop/Sh/inzdr_com_static_website-master/css/utils/_main.less",
-		"/Users/labinotjaha/Library/Application Support/Sublime Text 3/Packages/Material Theme/Material-Theme.sublime-theme",
-		"/Users/labinotjaha/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/labinotjaha/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+		"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles/components/_top-bar.scss"
 	],
 	"find":
 	{
@@ -316,6 +306,11 @@
 		"height": 158.0,
 		"where_history":
 		[
+			"/Users/labinotjaha/Desktop/ramadan-tend/src/assets/toolkit/styles/components",
+			"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/materials",
+			"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components",
+			"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles",
+			"/Users/labinotjaha/Desktop/mozaix.com-site/html/src/assets/toolkit/styles/organisms",
 			"/Users/labinotjaha/Desktop/givestuff-front-end/toolkit/src/assets/toolkit/styles/components",
 			"/Users/labinotjaha/Desktop/Projects/give",
 			"/Users/labinotjaha/Desktop/Projects/give/fbrctr/src/assets/toolkit/styles",
@@ -327,134 +322,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"fs",
-			"filters-animation",
+			"warn",
 			"red",
-			"$color-primary",
-			"pokemon",
-			"pokemonYellow",
-			"pokemonBlue",
-			"pokemonRed",
-			"large-6 columns",
-			"dz-message",
-			"94",
-			"96",
-			"button",
-			"dz-message",
-			"red",
-			"form",
-			"dropzone",
-			"dz-image",
-			"image-size",
-			"dz-image",
-			"vendor",
-			"65px",
-			"ass",
-			"expanded",
-			"input",
-			"10",
-			"h5",
-			"cur",
-			".medium-6.columns",
-			"Input Label",
-			"medium",
-			"down",
-			"chart",
-			"donee-donate",
-			"make-a-donation",
-			"top: 50px",
-			".tabs",
-			"reply-list",
-			"main-level",
-			"reply-list",
-			"main-level",
-			"<span class=\"admin-tag\">Donator</span>",
-			"span",
-			"comment-name",
-			"h6",
-			"Agustin Ortiz",
-			"comments-list",
-			"comment-box",
-			"reply-list",
-			"comments-contai",
-			"http://creaticode.com/blog",
-			"<img src=\"http://lorempixel.com/400/400/business/\" alt=\"\">",
-			"=\"\">\n",
-			"span",
-			"Tab ",
-			"tabs-title",
-			"tabs-title ",
-			"<div class=\"\">\n    <div class=\"tabs-content vertical\" data-tabs-content=\"tabs\">\n      <div class=\"tabs-panel is-active\" id=\"panel1v\">\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>\n      </div>\n      <div class=\"tabs-panel\" id=\"panel2v\">\n        <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>\n      </div>\n    </div>\n\t<",
-			"columns",
-			"example-vert-tabs",
-			"campaign",
-			"h4",
-			"<img src=\"\" alt=\"\">",
-			"h5",
-			"h3",
-			"line-he",
-			"hiw-content",
-			"block",
-			"medium",
-			"small",
-			"include",
-			"near",
-			"bottom",
-			"h2",
-			"h1",
-			"header",
-			"name",
-			"category",
-			"p:",
-			"h1",
-			"submenu",
-			"testera",
-			"e-f",
-			"select-icon",
-			"Item 1A",
-			"needer-tabs",
-			"hero-items",
-			"typed",
-			"motion",
-			" e-f extra-filter",
-			"e-f",
-			"0px",
-			"ef",
-			"re",
-			".near-me",
-			"Near me",
-			".near-me",
-			"filter\"",
-			"filter",
-			"extra-filter",
-			"span",
-			"abs-title",
-			"extend",
-			"grid-column",
-			"needer-tabs",
-			"2px",
-			"transform: rotate(55deg);",
-			"fff",
-			"workspace",
-			"scut",
-			"typed",
-			"modern",
-			"scut",
-			"jquery",
-			"white",
-			"small",
-			"medium",
-			"xsmall",
-			"down",
-			"bgbg",
-			"hamburger",
-			"title-bar",
-			"766px",
-			"medium",
-			"img",
+			"color",
+			"primary",
+			"nowrap",
+			"owrap; }",
+			"nowrap; }",
+			"white-space:nowrap; }",
+			"cle\">",
 			"transition",
-			"scroll",
-			"default-unit"
+			"ju-item-circle",
+			"ju-item-circle-hover",
+			"transform",
+			"io-item-hover",
+			"ju-item",
+			"facebook",
+			"style=\"color: #50abf2;\"",
+			"oi-item",
+			"wwd-item",
+			"what-we",
+			"Ramadan",
+			"test",
+			"h5",
+			"Volunteer",
+			"volunteer",
+			"Volunteer",
+			"volunteer",
+			"</a>",
+			"Lois",
+			"Input Label",
+			".medium-6.columns",
+			"gray",
+			"<div class=\"itm-item\">\n        <div class=\"itm-item-img\">\n          <img src=\"../../assets/toolkit/images/hoot.png\" alt=\"\">\n        </div>\n        <div class=\"itm-item-content\">\n          <p class=\"itm-content-date\">\n            25/07/14\n          </p>\n          <p>\n            BBC Audio Slideshow\n          </p>\n          <p>\n            Student volunteers have been organising an inter-faith charity project in London during the Muslim holy month of Ramadan for the second year running...\n          </p>\n          <a href=\"#\">Read More</a>\n        </div>\n      </div>",
+			"top60",
+			"<h4>Community</h4>\n            <p>Cater for the homeless and individuals in need, through the provision of food and beverages during the month of Ramadan.</p>",
+			"oi-item",
+			"em\">",
+			"Tab ",
+			"Tab",
+			"tab",
+			"Tab",
+			"<div>",
+			"a",
+			"medium-gray",
+			"class=\"footer-p",
+			"</a>",
+			"span",
+			"scut",
+			"\t@include grid-column(4)",
+			"12",
+			"components",
+			"top-bar",
+			"fonts",
+			"image",
+			"images",
+			"fonts",
+			"button",
+			"bottom:",
+			"top:",
+			"top",
+			"margin",
+			"transition",
+			"transit",
+			"transi",
+			"transition",
+			"$hero-color",
+			"hero-color",
+			"white",
+			"transition",
+			"transition: all 5s linear;",
+			"// @extend .transform-ease;",
+			"extend .transition-ease;",
+			"@extend .transition-ease;",
+			"  @",
+			"@extend .transform-ease;",
+			"extend",
+			"transition: all 0.5s ease;",
+			"transition",
+			"inner-section",
+			"card-inner {",
+			"card-section",
+			"card-inner-hover",
+			"padding",
+			"discover-card",
+			"modul",
+			"no-fo",
+			"no-fous",
+			"ont-size: 20px;",
+			"menu-toggle",
+			"babel",
+			".map",
+			"none",
+			"map-show",
+			"discover-results",
+			"margin-bottom",
+			"discover-card",
+			"isotope",
+			"donation-button",
+			"scut",
+			"max-width: 500",
+			"60",
+			"info-campaign",
+			"responsive-embed",
+			"donee-donate",
+			"discover-results",
+			"discover-card",
+			"scut",
+			"discover-fieldset-radio-show",
+			"discover",
+			"filter",
+			"discover",
+			"card-inner",
+			"span",
+			"h4",
+			"background:none",
+			"open",
+			"dropzone",
+			"top-bar",
+			"modu",
+			"profile-pin",
+			"css",
+			"}",
+			"{",
+			"media",
+			"breakpoint",
+			"discover-results",
+			"breakpoint",
+			"discover-card"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -472,136 +467,13 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "toolkit/src/views/pages/discover.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3708,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								437,
-								437
-							]
-						],
-						"settings":
-						{
-							"auto_name": "discover.html",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "toolkit/src/materials/molecules/blocks/discover-card.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 600,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								600,
-								600
-							]
-						],
-						"settings":
-						{
-							"auto_name": "discover-card.html",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 2,
-					"file": "toolkit/src/assets/toolkit/styles/layout/_discover.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1980,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								583,
-								583
-							]
-						],
-						"settings":
-						{
-							"auto_name": "discover.scss",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "toolkit/src/assets/toolkit/scripts/toolkit.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5980,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5759,
-								5759
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -661,6 +533,14 @@
 		"selected_items":
 		[
 			[
+				"_global",
+				"src/assets/toolkit/styles/_global.scss"
+			],
+			[
+				"hero",
+				"toolkit/src/materials/organisms/hero.html"
+			],
+			[
 				"make-a",
 				"toolkit/src/assets/toolkit/styles/components/_make-a-donation.scss"
 			],
@@ -717,10 +597,6 @@
 				"fbrctr/src/materials/molecules/navigation/top-bar.html"
 			],
 			[
-				"hero",
-				"fbrctr/src/materials/organisms/hero.html"
-			],
-			[
 				"toolkit",
 				"fbrctr/src/assets/toolkit/scripts/toolkit.js"
 			],
@@ -755,7 +631,7 @@
 		[
 			[
 				"",
-				"~/Desktop/Projects/wherenwhen-master/pattern-library/untitled.sublime-project"
+				"~/Desktop/givestuff-front-end/give.sublime-workspace"
 			]
 		],
 		"width": 380.0
@@ -769,7 +645,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

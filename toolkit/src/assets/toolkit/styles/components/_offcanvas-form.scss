@@ -1,5 +1,5 @@
 .offcanvas-section {
-	transition: all 0.5s;
+	@extend .transition-ease;
 	right: -500px;
 	@include scut-padding(n rem-calc(70));
 	position: fixed;

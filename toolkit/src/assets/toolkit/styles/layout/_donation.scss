@@ -30,7 +30,7 @@
 				height: 80px;
 				border-radius: 50%;
 				background-color: white;
-				transition: all 0.2s ease;
+				@extend .transition-ease;
 				&:hover {
 					background-color: #f56485;
 					i {

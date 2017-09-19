@@ -1,8 +1,7 @@
 .needer-box {
+  @include scut-padding(rem-calc(55) n n n);
+  @include scut-margin(n 2.5%);
   position: relative;
-  padding-top: 55px;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
 }
 .isotope:after {
   content: '';
@@ -25,39 +24,30 @@
 .card {
   &:hover {
     .card-inner-hover {
-      opacity: 1;
       @include scut-padding(rem-calc(25));
+      opacity: 1;
     }
     .hide-on-hover {
       display: none;
     }
   }
   float: left;
-  transition: all 0.5s ease;
+  @extend .transition-ease;
   position: relative;
   img {
     width: 100%;
   }
 }
-.card-inner {
-  background-color: rgba(0 , 0 , 0 , 0.3);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  @include scut-padding(rem-calc(30) rem-calc(25));
-}
 .card-section {
   @include scut-padding(n rem-calc(25) n n);
   position: absolute;
-  bottom: 35px;
+  bottom: rem-calc(35);
   span {
-    margin-right: 10px;
+    @include scut-margin(n rem-calc(10) n n);
   }
   h4 {
-    font-size: 24px;
+    font-size: rem-calc(24);
     font-weight: 300;
-
     @include breakpoint(small up) {
       display: -webkit-box;
       overflow: hidden;
@@ -75,69 +65,55 @@
     text-shadow: 0.3px 0.3px white;
   }
 }
+.card-inner {
+  font-size: rem-calc(14);
+  font-weight: 300;
+  background-color: rgba(0 , 0 , 0 , 0.3);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  @include scut-padding(rem-calc(30) rem-calc(25));
+}
 .card-inner-hover {
-    transition: all 0.5s;
-    opacity: 0;
-    height: 100%;
-    width: 100%;
-    bottom: 0;
-    h4 {
-      font-size: 24px;
-      font-weight: 300;
-       @include breakpoint(small up) {
-        display: -webkit-box;
-        overflow: hidden;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 3;
-      }
-    }
-    h4 a, span a { color: white; }
-    @include gradient-background();
-    .menu.hide {
-      display: initial!important;
-      position: absolute;
-      bottom: 35px;
-      li {
-        position: relative;
-        margin-right: 25px;
-        text-transform: capitalize;
-        a {
-          color: white;
-          padding: 0;
-          &:after {
-            content: '';
-            margin-right: 15px;
-          }
-        }
-        span {
-          margin-right: 10px;
+  @extend .transition-ease;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  span a {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  h4 a, span a { color: white; }
+  @include gradient-background();
+  .menu.hide {
+    display: initial!important;
+    position: absolute;
+    bottom: rem-calc(35);
+    li {
+      @include scut-margin(n rem-calc(25) n n);
+      position: relative;
+      font-size: 12px;
+      text-transform: capitalize;
+      a {
+        color: white;
+        padding: 0;
+        &:after {
+          content: '';
+          @include scut-margin(n rem-calc(15) n n);
         }
       }
-    }
-    .card-section {
-      transition: all 5s linear;
-      top: 30px;
+      span {
+        @include scut-margin(n rem-calc(10) n n);
+      }
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .card-section {
+    @extend .transition-linear;
+    top: rem-calc(30);
+  }
+}
 
 .discover-card {
   @include grid-col(12);
@@ -152,70 +128,9 @@
     }
   }
   float: left;
-  transition: all 0.5s ease;
+  @extend .transition-ease;
   position: relative;
   img {
     width: 100%;
   }
 }
-.card-inner {
-  font-size: 14px;
-  font-weight: 300;
-  background-color: rgba(0 , 0 , 0 , 0.3);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  @include scut-padding(rem-calc(30) rem-calc(25));
-}
-.card-section {
-  @include scut-padding(n rem-calc(25) n n);
-  position: absolute;
-  bottom: 35px;
-  span {
-    margin-right: 10px;
-  }
-  h4, span {
-    color: white;
-    text-shadow: 0.3px 0.3px white;
-  }
-}
-.card-inner-hover {
-    transition: all 0.5s;
-    opacity: 0;
-    height: 100%;
-    width: 100%;
-    bottom: 0;
-    span a {
-      font-size: 14px;
-      font-weight: 300;
-    }
-    h4 a, span a { color: white; }
-    @include gradient-background();
-    .menu.hide {
-      display: initial!important;
-      position: absolute;
-      bottom: 35px;
-      li {
-        position: relative;
-        font-size: 12px;
-        margin-right: 25px;
-        text-transform: capitalize;
-        a {
-          color: white;
-          padding: 0;
-          &:after {
-            content: '';
-            margin-right: 15px;
-          }
-        }
-        span {
-          margin-right: 10px;
-        }
-      }
-    }
-    .card-section {
-      transition: all 5s linear;
-      top: 30px;
-    }
-  }

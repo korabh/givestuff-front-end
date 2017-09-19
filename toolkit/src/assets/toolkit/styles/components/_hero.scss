@@ -1,4 +1,3 @@
-$hero-color: white;
 
 .hero {  
   @include breakpoint(medium down) {
@@ -7,7 +6,7 @@ $hero-color: white;
   @include breakpoint(xsmall down) {
     min-height: 300px;
   };
-  background-color: $hero-color;
+  background-color: white;
   min-height: 500px;
   padding-top: rem-calc(85);
 
@@ -228,9 +227,9 @@ $hero-color: white;
   line-height: 22px;
   height: 22px;
   overflow: hidden;
-  transition: all 0.3s ease;
+  @extend .transition-ease;
   li {
-    transition: all 0.3s ease;
+    @extend .transition-ease;
     float: initial;
   }
 }
